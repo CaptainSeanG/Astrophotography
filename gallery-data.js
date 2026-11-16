@@ -69,6 +69,23 @@ const galleryData = [
     "capturedHours": 7.08
   },
   {
+    "id": "ic405",
+    "name": "IC 405 Flaming Star Nebula",
+    "aliases": "Flaming Star Nebula, IC 405, IC405",
+    "finished": "2026-11-12T16:59:51.0447525-07:00",
+    "width": 2997,
+    "height": 2998,
+    "images": {
+      "thumb": "images/ic405-dad083ccc01f4f8ddbb9-thumb.webp",
+      "preview": "images/ic405-dad083ccc01f4f8ddbb9-preview.webp",
+      "full": "images/ic405-dad083ccc01f4f8ddbb9-full.webp"
+    },
+    "sha256": "dad083ccc01f4f8ddbb9fdd418e3363957fc128489849dcea5462245b53dd885",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 2.83
+  },
+  {
     "id": "ic410",
     "name": "IC 410",
     "aliases": "IC410",
@@ -126,6 +143,23 @@ const galleryData = [
     "capturedHours": 49.58
   },
   {
+    "id": "ic443",
+    "name": "IC 443 Jellyfish",
+    "aliases": "IC 443, IC443, Jellyfish Nebula",
+    "finished": "2021-11-15T16:37:24-07:00",
+    "width": 3008,
+    "height": 3008,
+    "images": {
+      "thumb": "images/ic443-e4e757a2215396b64180-thumb.webp",
+      "preview": "images/ic443-e4e757a2215396b64180-preview.webp",
+      "full": "images/ic443-e4e757a2215396b64180-full.webp"
+    },
+    "sha256": "e4e757a2215396b641804cfd74bb38fe2e4e0df45992aa99b6bff9c0a263ff92",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 7.42
+  },
+  {
     "id": "ic5070",
     "name": "IC 5070 Pelican Nebula",
     "aliases": "IC5070",
@@ -158,6 +192,23 @@ const galleryData = [
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": 0.67
+  },
+  {
+    "id": "m101",
+    "name": "M 101 Pinwheel Galaxy",
+    "aliases": "M101",
+    "finished": "2023-05-15T10:16:38-07:00",
+    "width": 3008,
+    "height": 3008,
+    "images": {
+      "thumb": "images/m101-53cda7e06b4dec0801f0-thumb.webp",
+      "preview": "images/m101-53cda7e06b4dec0801f0-preview.webp",
+      "full": "images/m101-53cda7e06b4dec0801f0-full.webp"
+    },
+    "sha256": "53cda7e06b4dec0801f03ef776c761fa267c8a190a0f53788d9e724c83e004d8",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 5.42
   },
   {
     "integrationSeconds": 4200.0,
@@ -204,6 +255,23 @@ const galleryData = [
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": 21.5
+  },
+  {
+    "id": "m13",
+    "name": "M 13 Hercules Globular Cluster",
+    "aliases": "M13",
+    "finished": "2021-11-13T20:39:48-07:00",
+    "width": 2600,
+    "height": 2600,
+    "images": {
+      "thumb": "images/m13-4b10fe6b72b2717c896a-thumb.webp",
+      "preview": "images/m13-4b10fe6b72b2717c896a-preview.webp",
+      "full": "images/m13-4b10fe6b72b2717c896a-full.webp"
+    },
+    "sha256": "4b10fe6b72b2717c896a998e7977dcaaef77bb7a96b0caf498e189098cc22fe8",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 2.77
   },
   {
     "id": "m33",
@@ -255,6 +323,23 @@ const galleryData = [
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": 11.5
+  },
+  {
+    "id": "m76",
+    "name": "M 76 Little Dumbbell Nebula",
+    "aliases": "M76",
+    "finished": "2021-11-18T14:46:44-07:00",
+    "width": 3500,
+    "height": 3500,
+    "images": {
+      "thumb": "images/m76-ef9aac0b9a3cda36b875-thumb.webp",
+      "preview": "images/m76-ef9aac0b9a3cda36b875-preview.webp",
+      "full": "images/m76-ef9aac0b9a3cda36b875-full.webp"
+    },
+    "sha256": "ef9aac0b9a3cda36b875784057bf373209ddd4ed02bd43586ff183bd8deac19c",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 11
   },
   {
     "id": "m78",
@@ -382,6 +467,57 @@ const galleryData = [
     "capturedHours": 0.87
   },
   {
+    "id": "ngc2174",
+    "name": "NGC 2174 Monkey Head Nebula",
+    "aliases": "Monkey Head, Monkey Head Nebula, NGC 2174, NGC2174",
+    "finished": "2021-11-14T17:19:52-07:00",
+    "width": 3008,
+    "height": 3008,
+    "images": {
+      "thumb": "images/ngc2174-f483edf4a006a98e2d51-thumb.webp",
+      "preview": "images/ngc2174-f483edf4a006a98e2d51-preview.webp",
+      "full": "images/ngc2174-f483edf4a006a98e2d51-full.webp"
+    },
+    "sha256": "f483edf4a006a98e2d515f1d093859004bd20796ecba656760759b06d82d895c",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 15.05
+  },
+  {
+    "id": "ngc224",
+    "name": "Andromeda Galaxy",
+    "aliases": "Andromeda Galaxy, M31, Messier 31, NGC 224, NGC224",
+    "finished": "2020-09-20T12:59:25-07:00",
+    "width": 6016,
+    "height": 6016,
+    "images": {
+      "thumb": "images/ngc224-3713634167eda8061dd7-thumb.webp",
+      "preview": "images/ngc224-3713634167eda8061dd7-preview.webp",
+      "full": "images/ngc224-3713634167eda8061dd7-full.webp"
+    },
+    "sha256": "3713634167eda8061dd7167f19600a113ecf6a1fc9d1e692376e71d268c5e01c",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 0.14
+  },
+  {
+    "id": "ngc2264",
+    "name": "NGC 2264 Christmas Tree Cluster",
+    "aliases": "NGC2264",
+    "finished": "2021-10-27T14:34:34-07:00",
+    "width": 6016,
+    "height": 6016,
+    "images": {
+      "thumb": "images/ngc2264-b93256df5aad9f5d6a91-thumb.webp",
+      "preview": "images/ngc2264-b93256df5aad9f5d6a91-preview.webp",
+      "full": "images/ngc2264-b93256df5aad9f5d6a91-full.webp"
+    },
+    "sha256": "b93256df5aad9f5d6a91a5c7bf006897b4e9009e9563420cc98803fac657b51a",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 0.25
+  },
+  {
     "id": "ngc2403",
     "name": "NGC 2403 - Spiral Galaxy",
     "aliases": "NGC 2403, NGC 2403 - Spiral Galaxy, NGC2403",
@@ -437,6 +573,23 @@ const galleryData = [
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": 6
+  },
+  {
+    "id": "ngc3031",
+    "name": "Bode's Galaxy",
+    "aliases": "Bode's Galaxy, M81, Messier 81, NGC 3031, NGC3031",
+    "finished": "2026-10-10T00:39:01.5466926-07:00",
+    "width": 2959,
+    "height": 2969,
+    "images": {
+      "thumb": "images/ngc3031-8f1a438449a1c7f8125f-thumb.webp",
+      "preview": "images/ngc3031-8f1a438449a1c7f8125f-preview.webp",
+      "full": "images/ngc3031-8f1a438449a1c7f8125f-full.webp"
+    },
+    "sha256": "8f1a438449a1c7f8125f30d0e2dee060da1ca8f043bf2f06c5724778818e1678",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 26.58
   },
   {
     "id": "ngc3034",
@@ -542,6 +695,23 @@ const galleryData = [
     "capturedHours": 5.58
   },
   {
+    "id": "ngc7380",
+    "name": "NGC 7380 Wizard Nebula",
+    "aliases": "NGC 7380, NGC 7380 Wizard Nebula, NGC7380",
+    "finished": "2026-10-08T17:01:07.3815215-07:00",
+    "width": 2998,
+    "height": 3004,
+    "images": {
+      "thumb": "images/ngc7380-51688e6a2633188d8eb5-thumb.webp",
+      "preview": "images/ngc7380-51688e6a2633188d8eb5-preview.webp",
+      "full": "images/ngc7380-51688e6a2633188d8eb5-full.webp"
+    },
+    "sha256": "51688e6a2633188d8eb5db2caef9b319b71c28fb65c578e550af23c4e23da2c8",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 13.1
+  },
+  {
     "id": "ngc7538",
     "name": "NGC 7538",
     "aliases": "NGC7538",
@@ -639,78 +809,10 @@ const galleryData = [
     "capturedHours": 21.92
   },
   {
-    "id": "ngc224",
-    "name": "Andromeda Galaxy",
-    "aliases": "Andromeda Galaxy, M31, Messier 31, NGC 224, NGC224",
-    "finished": "2020-09-20T19:59:25.0000000+00:00",
-    "width": 6016,
-    "height": 6016,
-    "images": {
-      "thumb": "images/ngc224-3713634167eda8061dd7-thumb.webp",
-      "preview": "images/ngc224-3713634167eda8061dd7-preview.webp",
-      "full": "images/ngc224-3713634167eda8061dd7-full.webp"
-    },
-    "sha256": "3713634167eda8061dd7167f19600a113ecf6a1fc9d1e692376e71d268c5e01c",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 0.14
-  },
-  {
-    "id": "ngc2264",
-    "name": "NGC 2264 Christmas Tree Cluster",
-    "aliases": "NGC2264",
-    "finished": "2021-10-27T21:34:34.0000000+00:00",
-    "width": 6016,
-    "height": 6016,
-    "images": {
-      "thumb": "images/ngc2264-b93256df5aad9f5d6a91-thumb.webp",
-      "preview": "images/ngc2264-b93256df5aad9f5d6a91-preview.webp",
-      "full": "images/ngc2264-b93256df5aad9f5d6a91-full.webp"
-    },
-    "sha256": "b93256df5aad9f5d6a91a5c7bf006897b4e9009e9563420cc98803fac657b51a",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 0.25
-  },
-  {
-    "id": "ngc3031",
-    "name": "Bode's Galaxy",
-    "aliases": "Bode's Galaxy, M81, Messier 81, NGC 3031, NGC3031",
-    "finished": "2026-10-10T07:39:01.5466926+00:00",
-    "width": 2959,
-    "height": 2969,
-    "images": {
-      "thumb": "images/ngc3031-8f1a438449a1c7f8125f-thumb.webp",
-      "preview": "images/ngc3031-8f1a438449a1c7f8125f-preview.webp",
-      "full": "images/ngc3031-8f1a438449a1c7f8125f-full.webp"
-    },
-    "sha256": "8f1a438449a1c7f8125f30d0e2dee060da1ca8f043bf2f06c5724778818e1678",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 26.58
-  },
-  {
-    "id": "m101",
-    "name": "M 101 Pinwheel Galaxy",
-    "aliases": "M101",
-    "finished": "2023-05-15T17:16:38.0000000+00:00",
-    "width": 3008,
-    "height": 3008,
-    "images": {
-      "thumb": "images/m101-53cda7e06b4dec0801f0-thumb.webp",
-      "preview": "images/m101-53cda7e06b4dec0801f0-preview.webp",
-      "full": "images/m101-53cda7e06b4dec0801f0-full.webp"
-    },
-    "sha256": "53cda7e06b4dec0801f03ef776c761fa267c8a190a0f53788d9e724c83e004d8",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 5.42
-  },
-  {
     "id": "sh2136",
     "name": "SH2-136 Ghost Nebula",
     "aliases": "SH2136",
-    "finished": "2026-11-06T18:01:53.2336285+00:00",
+    "finished": "2026-11-06T11:01:53.2336285-07:00",
     "width": 2660,
     "height": 2660,
     "images": {
@@ -724,105 +826,20 @@ const galleryData = [
     "capturedHours": 2.75
   },
   {
-    "id": "ic405",
-    "name": "IC 405 Flaming Star Nebula",
-    "aliases": "Flaming Star Nebula, IC 405, IC405",
-    "finished": "2026-11-12T23:59:51.0447525+00:00",
-    "width": 2997,
-    "height": 2998,
+    "id": "m27",
+    "name": "M 27 Dumbbell Nebula",
+    "aliases": "M27",
+    "finished": "2021-11-13T23:06:52.0000000+00:00",
+    "width": 6016,
+    "height": 6016,
     "images": {
-      "thumb": "images/ic405-dad083ccc01f4f8ddbb9-thumb.webp",
-      "preview": "images/ic405-dad083ccc01f4f8ddbb9-preview.webp",
-      "full": "images/ic405-dad083ccc01f4f8ddbb9-full.webp"
+      "thumb": "images/m27-0aff4a3a75aebe6a0eb5-thumb.webp",
+      "preview": "images/m27-0aff4a3a75aebe6a0eb5-preview.webp",
+      "full": "images/m27-0aff4a3a75aebe6a0eb5-full.webp"
     },
-    "sha256": "dad083ccc01f4f8ddbb9fdd418e3363957fc128489849dcea5462245b53dd885",
+    "sha256": "0aff4a3a75aebe6a0eb51e8e4d71d9a46aa344c6697e899b8de9b65137d74e57",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 2.83
-  },
-  {
-    "id": "m76",
-    "name": "M 76 Little Dumbbell Nebula",
-    "aliases": "M76",
-    "finished": "2021-11-18T21:46:44.0000000+00:00",
-    "width": 3500,
-    "height": 3500,
-    "images": {
-      "thumb": "images/m76-ef9aac0b9a3cda36b875-thumb.webp",
-      "preview": "images/m76-ef9aac0b9a3cda36b875-preview.webp",
-      "full": "images/m76-ef9aac0b9a3cda36b875-full.webp"
-    },
-    "sha256": "ef9aac0b9a3cda36b875784057bf373209ddd4ed02bd43586ff183bd8deac19c",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 11
-  },
-  {
-    "id": "ic443",
-    "name": "IC 443 Jellyfish",
-    "aliases": "IC 443, IC443, Jellyfish Nebula",
-    "finished": "2021-11-15T23:37:24.0000000+00:00",
-    "width": 3008,
-    "height": 3008,
-    "images": {
-      "thumb": "images/ic443-e4e757a2215396b64180-thumb.webp",
-      "preview": "images/ic443-e4e757a2215396b64180-preview.webp",
-      "full": "images/ic443-e4e757a2215396b64180-full.webp"
-    },
-    "sha256": "e4e757a2215396b641804cfd74bb38fe2e4e0df45992aa99b6bff9c0a263ff92",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 7.42
-  },
-  {
-    "id": "ngc2174",
-    "name": "NGC 2174 Monkey Head Nebula",
-    "aliases": "Monkey Head, Monkey Head Nebula, NGC 2174, NGC2174",
-    "finished": "2021-11-15T00:19:52.0000000+00:00",
-    "width": 3008,
-    "height": 3008,
-    "images": {
-      "thumb": "images/ngc2174-f483edf4a006a98e2d51-thumb.webp",
-      "preview": "images/ngc2174-f483edf4a006a98e2d51-preview.webp",
-      "full": "images/ngc2174-f483edf4a006a98e2d51-full.webp"
-    },
-    "sha256": "f483edf4a006a98e2d515f1d093859004bd20796ecba656760759b06d82d895c",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 15.05
-  },
-  {
-    "id": "m13",
-    "name": "M 13 Hercules Globular Cluster",
-    "aliases": "M13",
-    "finished": "2021-11-14T03:39:48.0000000+00:00",
-    "width": 2600,
-    "height": 2600,
-    "images": {
-      "thumb": "images/m13-4b10fe6b72b2717c896a-thumb.webp",
-      "preview": "images/m13-4b10fe6b72b2717c896a-preview.webp",
-      "full": "images/m13-4b10fe6b72b2717c896a-full.webp"
-    },
-    "sha256": "4b10fe6b72b2717c896a998e7977dcaaef77bb7a96b0caf498e189098cc22fe8",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 2.77
-  },
-  {
-    "id": "ngc7380",
-    "name": "NGC 7380 Wizard Nebula",
-    "aliases": "NGC 7380, NGC 7380 Wizard Nebula, NGC7380",
-    "finished": "2026-10-09T00:01:07.3815215+00:00",
-    "width": 2998,
-    "height": 3004,
-    "images": {
-      "thumb": "images/ngc7380-51688e6a2633188d8eb5-thumb.webp",
-      "preview": "images/ngc7380-51688e6a2633188d8eb5-preview.webp",
-      "full": "images/ngc7380-51688e6a2633188d8eb5-full.webp"
-    },
-    "sha256": "51688e6a2633188d8eb5db2caef9b319b71c28fb65c578e550af23c4e23da2c8",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 13.1
+    "capturedHours": 3.7
   }
 ];
