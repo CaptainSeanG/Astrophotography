@@ -1,5 +1,28 @@
 const galleryData = [
   {
+    "id": "ic1396a",
+    "name": "IC 1396 Elephant Trunk Nebula",
+    "aliases": "Elephant Trunk, Elephant Trunk Nebula, IC 1396A, IC1396A",
+    "finished": "2026-11-10T12:13:10.447-07:00",
+    "width": 2789,
+    "height": 2756,
+    "images": {
+      "thumb": "images/ic1396a-5c525eff647f4a07a888-thumb.webp",
+      "preview": "images/ic1396a-5c525eff647f4a07a888-preview.webp",
+      "full": "images/ic1396a-5c525eff647f4a07a888-full.webp"
+    },
+    "sha256": "5c525eff647f4a07a888cef164b2b73b4d963beb9c23bb9dc1bc487ada4b13ab",
+    "integrationSeconds": 21900.0,
+    "filters": [
+      {
+        "filter": "L-eXtreme",
+        "seconds": 21900,
+        "frames": 73
+      }
+    ],
+    "capturedHours": 7
+  },
+  {
     "id": "ic1805",
     "name": "IC 1805 Heart Nebula",
     "aliases": "Heart Nebula, IC 1805, IC1805",
@@ -61,6 +84,29 @@ const galleryData = [
       }
     ],
     "capturedHours": 14.35
+  },
+  {
+    "id": "ic417",
+    "name": "IC 417",
+    "aliases": "IC417",
+    "finished": "2026-11-10T12:36:25.757-07:00",
+    "width": 2998,
+    "height": 2999,
+    "images": {
+      "thumb": "images/ic417-d2c4960fad744ff71c87-thumb.webp",
+      "preview": "images/ic417-d2c4960fad744ff71c87-preview.webp",
+      "full": "images/ic417-d2c4960fad744ff71c87-full.webp"
+    },
+    "sha256": "d2c4960fad744ff71c879aed113a4509c3a19a01c5de10a792760eb09b721959",
+    "integrationSeconds": 7500.0,
+    "filters": [
+      {
+        "filter": "L-eXtreme",
+        "seconds": 7500,
+        "frames": 25
+      }
+    ],
+    "capturedHours": 2.08
   },
   {
     "id": "ic5070",
@@ -170,6 +216,75 @@ const galleryData = [
       }
     ],
     "capturedHours": 3.08
+  },
+  {
+    "id": "m74",
+    "name": "M 74 Phantom Galaxy",
+    "aliases": "M74",
+    "finished": "2026-11-11T13:18:18.502-07:00",
+    "width": 2995,
+    "height": 2979,
+    "images": {
+      "thumb": "images/m74-44476e85ba348a0623a2-thumb.webp",
+      "preview": "images/m74-44476e85ba348a0623a2-preview.webp",
+      "full": "images/m74-44476e85ba348a0623a2-full.webp"
+    },
+    "sha256": "44476e85ba348a0623a2bba6ae25f707a3b5a0bf79afc5d05ab2a695564dfbc7",
+    "integrationSeconds": 8700.0,
+    "filters": [
+      {
+        "filter": "Broadband",
+        "seconds": 8700,
+        "frames": 29
+      }
+    ],
+    "capturedHours": 11.5
+  },
+  {
+    "id": "m78",
+    "name": "M 78",
+    "aliases": "M78",
+    "finished": "2026-11-09T14:44:00.882-07:00",
+    "width": 2796,
+    "height": 2912,
+    "images": {
+      "thumb": "images/m78-2f78272ef18dcbf10cc7-thumb.webp",
+      "preview": "images/m78-2f78272ef18dcbf10cc7-preview.webp",
+      "full": "images/m78-2f78272ef18dcbf10cc7-full.webp"
+    },
+    "sha256": "2f78272ef18dcbf10cc7a1f5bce650ee819f549c30096eacb66c8f5b1bed0eba",
+    "integrationSeconds": 5700.0,
+    "filters": [
+      {
+        "filter": "Broadband",
+        "seconds": 5700,
+        "frames": 19
+      }
+    ],
+    "capturedHours": 3.33
+  },
+  {
+    "id": "m97",
+    "name": "M 97 - Owl Nebula",
+    "aliases": "M97",
+    "finished": "2026-11-12T11:15:28.771-07:00",
+    "width": 3000,
+    "height": 3003,
+    "images": {
+      "thumb": "images/m97-dd0ab3be757595002fed-thumb.webp",
+      "preview": "images/m97-dd0ab3be757595002fed-preview.webp",
+      "full": "images/m97-dd0ab3be757595002fed-full.webp"
+    },
+    "sha256": "dd0ab3be757595002fed13fb65de9ad098055a824678e2cf14914e27120ce920",
+    "integrationSeconds": 3300.0,
+    "filters": [
+      {
+        "filter": "L-eXtreme",
+        "seconds": 3300,
+        "frames": 11
+      }
+    ],
+    "capturedHours": 2.17
   },
   {
     "id": "melotte15",
@@ -378,6 +493,29 @@ const galleryData = [
     "capturedHours": 5.58
   },
   {
+    "id": "ngc7538",
+    "name": "NGC 7538",
+    "aliases": "NGC7538",
+    "finished": "2026-11-08T17:26:34.991-07:00",
+    "width": 2946,
+    "height": 2952,
+    "images": {
+      "thumb": "images/ngc7538-8cf9fa4428f17ed57922-thumb.webp",
+      "preview": "images/ngc7538-8cf9fa4428f17ed57922-preview.webp",
+      "full": "images/ngc7538-8cf9fa4428f17ed57922-full.webp"
+    },
+    "sha256": "8cf9fa4428f17ed579221ed5575389228e8ba8f6e817bd3a920bc6fcd72f6107",
+    "integrationSeconds": 29400.0,
+    "filters": [
+      {
+        "filter": "L-eXtreme",
+        "seconds": 29400,
+        "frames": 98
+      }
+    ],
+    "capturedHours": 8.33
+  },
+  {
     "id": "ngc7635",
     "name": "NGC 7635 Bubble Nebula",
     "aliases": "Bubble Nebula, C11, Caldwell 11, NGC 7635, NGC7635",
@@ -470,141 +608,94 @@ const galleryData = [
     "capturedHours": 21.92
   },
   {
-    "id": "ngc7538",
-    "name": "NGC 7538",
-    "aliases": "NGC7538",
-    "finished": "2026-11-09T00:26:34.9910000+00:00",
-    "width": 2946,
-    "height": 2952,
+    "id": "ngc5194",
+    "name": "M 51 Whirlpool Galaxy",
+    "aliases": "M51, Messier 51, NGC 5194, NGC5194, Whirlpool Galaxy",
+    "finished": "2026-10-11T19:33:45.4630000+00:00",
+    "width": 2093,
+    "height": 2115,
     "images": {
-      "thumb": "images/ngc7538-8cf9fa4428f17ed57922-thumb.webp",
-      "preview": "images/ngc7538-8cf9fa4428f17ed57922-preview.webp",
-      "full": "images/ngc7538-8cf9fa4428f17ed57922-full.webp"
+      "thumb": "images/ngc5194-ad20c544e66b1ac9af2a-thumb.webp",
+      "preview": "images/ngc5194-ad20c544e66b1ac9af2a-preview.webp",
+      "full": "images/ngc5194-ad20c544e66b1ac9af2a-full.webp"
     },
-    "sha256": "8cf9fa4428f17ed579221ed5575389228e8ba8f6e817bd3a920bc6fcd72f6107",
-    "integrationSeconds": 29400.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 29400,
-        "frames": 98
-      }
-    ],
-    "capturedHours": 8.33
+    "sha256": "ad20c544e66b1ac9af2ad77f7c70274dbb3a82b3ce22876eb851868984596f26",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 21.9
   },
   {
-    "id": "ic417",
-    "name": "IC 417",
-    "aliases": "IC417",
-    "finished": "2026-11-10T19:36:25.7570000+00:00",
-    "width": 2998,
+    "id": "m33",
+    "name": "M 33 Triangulum Galaxy",
+    "aliases": "M 33 Triangulum Galaxy, M33, Triangulum Pinwheel",
+    "finished": "2026-10-10T07:22:40.5330000+00:00",
+    "width": 3003,
     "height": 2999,
     "images": {
-      "thumb": "images/ic417-d2c4960fad744ff71c87-thumb.webp",
-      "preview": "images/ic417-d2c4960fad744ff71c87-preview.webp",
-      "full": "images/ic417-d2c4960fad744ff71c87-full.webp"
+      "thumb": "images/m33-42073b08e1b961496108-thumb.webp",
+      "preview": "images/m33-42073b08e1b961496108-preview.webp",
+      "full": "images/m33-42073b08e1b961496108-full.webp"
     },
-    "sha256": "d2c4960fad744ff71c879aed113a4509c3a19a01c5de10a792760eb09b721959",
-    "integrationSeconds": 7500.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 7500,
-        "frames": 25
-      }
-    ],
-    "capturedHours": 2.08
+    "sha256": "42073b08e1b9614961084cdc73264d1e918b6e246837635f92542ed5e9dc0de2",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 3.9
   },
   {
-    "id": "ic1396a",
-    "name": "IC 1396 Elephant Trunk Nebula",
-    "aliases": "Elephant Trunk, Elephant Trunk Nebula, IC 1396A, IC1396A",
-    "finished": "2026-11-10T19:13:10.4470000+00:00",
-    "width": 2789,
-    "height": 2756,
+    "id": "ic434-b33",
+    "name": "Horsehead / IC 434 field",
+    "aliases": "IC 434 Horsehead, IC 434 Horsehead Nebula, IC434/B33",
+    "finished": "2026-10-14T05:23:24.0220000+00:00",
+    "width": 2181,
+    "height": 2145,
     "images": {
-      "thumb": "images/ic1396a-5c525eff647f4a07a888-thumb.webp",
-      "preview": "images/ic1396a-5c525eff647f4a07a888-preview.webp",
-      "full": "images/ic1396a-5c525eff647f4a07a888-full.webp"
+      "thumb": "images/ic434-b33-26497ccff7f64bc52190-thumb.webp",
+      "preview": "images/ic434-b33-26497ccff7f64bc52190-preview.webp",
+      "full": "images/ic434-b33-26497ccff7f64bc52190-full.webp"
     },
-    "sha256": "5c525eff647f4a07a888cef164b2b73b4d963beb9c23bb9dc1bc487ada4b13ab",
-    "integrationSeconds": 21900.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 21900,
-        "frames": 73
-      }
-    ],
-    "capturedHours": 7
+    "sha256": "26497ccff7f64bc52190e59d23f7d8a0d54662f7d848c5394f9332a67300ea9d",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 49.58
   },
   {
-    "id": "m78",
-    "name": "M 78",
-    "aliases": "M78",
-    "finished": "2026-11-09T21:44:00.8820000+00:00",
-    "width": 2796,
-    "height": 2912,
+    "id": "ngc1491",
+    "name": "NGC 1491 Fossil Footprint",
+    "aliases": "NGC1491",
+    "finished": "2026-10-14T17:24:58.4270000+00:00",
+    "width": 2124,
+    "height": 2125,
     "images": {
-      "thumb": "images/m78-2f78272ef18dcbf10cc7-thumb.webp",
-      "preview": "images/m78-2f78272ef18dcbf10cc7-preview.webp",
-      "full": "images/m78-2f78272ef18dcbf10cc7-full.webp"
+      "thumb": "images/ngc1491-6c8ccd482b524dff7676-thumb.webp",
+      "preview": "images/ngc1491-6c8ccd482b524dff7676-preview.webp",
+      "full": "images/ngc1491-6c8ccd482b524dff7676-full.webp"
     },
-    "sha256": "2f78272ef18dcbf10cc7a1f5bce650ee819f549c30096eacb66c8f5b1bed0eba",
-    "integrationSeconds": 5700.0,
+    "sha256": "6c8ccd482b524dff7676552d5ee16b7c73b62df24d533810e0bded84643664a7",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 16.38
+  },
+  {
+    "id": "ngc2419",
+    "name": "Caldwell 25",
+    "aliases": "C25, Caldwell 25, NGC 2419, NGC2419",
+    "finished": "2026-11-01T00:29:00.5880000+00:00",
+    "width": 2983,
+    "height": 2968,
+    "images": {
+      "thumb": "images/ngc2419-88e3c15234f6ce98194d-thumb.webp",
+      "preview": "images/ngc2419-88e3c15234f6ce98194d-preview.webp",
+      "full": "images/ngc2419-88e3c15234f6ce98194d-full.webp"
+    },
+    "sha256": "88e3c15234f6ce98194d9181778ba8ad7561f311e4e308f4f419d40dfc712ba9",
+    "integrationSeconds": 6600.0,
     "filters": [
       {
         "filter": "Broadband",
-        "seconds": 5700,
-        "frames": 19
+        "seconds": 6600,
+        "frames": 22
       }
     ],
-    "capturedHours": 3.33
-  },
-  {
-    "id": "m97",
-    "name": "M 97 - Owl Nebula",
-    "aliases": "M97",
-    "finished": "2026-11-12T18:15:28.7710000+00:00",
-    "width": 3000,
-    "height": 3003,
-    "images": {
-      "thumb": "images/m97-dd0ab3be757595002fed-thumb.webp",
-      "preview": "images/m97-dd0ab3be757595002fed-preview.webp",
-      "full": "images/m97-dd0ab3be757595002fed-full.webp"
-    },
-    "sha256": "dd0ab3be757595002fed13fb65de9ad098055a824678e2cf14914e27120ce920",
-    "integrationSeconds": 3300.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 3300,
-        "frames": 11
-      }
-    ],
-    "capturedHours": 2.17
-  },
-  {
-    "id": "m74",
-    "name": "M 74 Phantom Galaxy",
-    "aliases": "M74",
-    "finished": "2026-11-11T20:18:18.5020000+00:00",
-    "width": 2995,
-    "height": 2979,
-    "images": {
-      "thumb": "images/m74-44476e85ba348a0623a2-thumb.webp",
-      "preview": "images/m74-44476e85ba348a0623a2-preview.webp",
-      "full": "images/m74-44476e85ba348a0623a2-full.webp"
-    },
-    "sha256": "44476e85ba348a0623a2bba6ae25f707a3b5a0bf79afc5d05ab2a695564dfbc7",
-    "integrationSeconds": 8700.0,
-    "filters": [
-      {
-        "filter": "Broadband",
-        "seconds": 8700,
-        "frames": 29
-      }
-    ],
-    "capturedHours": 11.5
+    "capturedHours": 1.83
   }
 ];
