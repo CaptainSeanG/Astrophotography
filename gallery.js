@@ -3,12 +3,17 @@ const detail = byId('detail');
 const viewer = byId('viewer');
 const stage = byId('stage');
 const full = byId('full');
-const targets = new Map(galleryData.map(target => [target.id, target]));
+const photographs = galleryData.map(target => {
+  const catalog = targetCatalog[target.id] ?? {};
+  const aliases = [target.aliases, catalog.aliases].filter(Boolean).join(', ').split(', ');
+  return { ...target, ...catalog, aliases: [...new Set(aliases)].join(', ') };
+});
+const targets = new Map(photographs.map(target => [target.id, target]));
 const asset = (target, variant) => target.images?.[variant] ?? `images/${target.id}-${variant}.webp`;
 const hours = seconds => `${(seconds / 3600).toFixed(2)} h`;
 const normalize = value => value.toLowerCase().replace(/[^a-z0-9]/g, '');
 let selected;
-const featured = targets.get('m106') ?? galleryData[0];
+const featured = targets.get('m106') ?? photographs[0];
 if (featured) {
   document.querySelector('.hero-photo').src = asset(featured, 'preview');
   const credit = document.querySelector('.hero-credit');
@@ -23,6 +28,25 @@ function element(tag, value, className) {
   return item;
 }
 
+function objectTypes(target) {
+  return new Set([target.type, target.subtype, ...(target.tags ?? [])].filter(Boolean));
+}
+
+const typeFilters = [
+  ['Galaxy', 'Galaxies'], ['Nebula', 'All nebulae'],
+  ['Emission nebula', 'Emission nebulae'], ['Planetary nebula', 'Planetary nebulae'],
+  ['Reflection nebula', 'Reflection nebulae'], ['Dark nebula', 'Dark nebulae'],
+  ['Supernova remnant', 'Supernova remnants'], ['Globular cluster', 'Globular clusters'],
+  ['Open cluster', 'Open clusters']
+];
+for (const [value, label] of typeFilters) {
+  const count = photographs.filter(target => objectTypes(target).has(value)).length;
+  if (!count) continue;
+  const option = element('option', `${label} (${count})`);
+  option.value = value;
+  byId('type').append(option);
+}
+
 function render() {
   const query = normalize(byId('search').value);
   const type = byId('type').value;
@@ -32,8 +56,8 @@ function render() {
     recent: (a, b) => Date.parse(b.finished) - Date.parse(a.finished),
     hours: (a, b) => (b.integrationSeconds ?? -1) - (a.integrationSeconds ?? -1)
   };
-  const matches = galleryData.filter(target =>
-    (!type || target.type === type) && normalize(`${target.name} ${target.aliases}`).includes(query)
+  const matches = photographs.filter(target =>
+    (!type || objectTypes(target).has(type)) && normalize(`${target.name} ${target.aliases} ${target.id}`).includes(query)
   ).sort(compare[order]);
   byId('empty').hidden = matches.length > 0;
   byId('photographs').replaceChildren(...matches.map(target => {

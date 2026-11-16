@@ -7,6 +7,7 @@
   <title>Sean Gallagher Astrophotography</title>
   <link rel="stylesheet" href="style.css">
   <script defer src="gallery-data.js"></script>
+  <script defer src="target-catalog.js"></script>
   <script defer src="gallery.js"></script>
 </head>
 <body>
@@ -29,7 +30,7 @@
       <h2 id="gallery-title">The gallery</h2>
       <div class="controls">
         <label>Search <input id="search" type="search" placeholder="Target name or catalog number"></label>
-        <label>Object type <select id="type"><option value="">All objects</option><option>Galaxy</option><option>Nebula</option></select></label>
+        <label>Object type <select id="type"><option value="">All objects</option></select></label>
         <label>Sort by <select id="sort"><option value="recent">Recently updated</option><option value="name">Name</option><option value="hours">Integrated hours</option></select></label>
       </div>
       <p id="empty" role="status" hidden>No photographs match your search.</p>
