@@ -27,6 +27,15 @@ h1 em{color:#c3dcfb;font-weight:400}
 .hero p{font-size:clamp(1rem,2vw,1.23rem);margin:22px 0 28px}
 .primary{display:inline-flex;gap:20px;padding:13px 18px;background:#b6d8ff;color:#111b28;border-radius:5px;font-weight:650}
 .hero-credit{position:absolute;right:max(24px,calc((100% - 1220px)/2));bottom:24px;color:#e0edff;background:#111a27ed;border:1px solid #53667e;border-radius:4px;padding:9px 12px;font-size:.83rem}
+.gallery-sky{position:relative;isolation:isolate;background:#0b1018}
+.gallery-sky::before{
+  content:"";position:absolute;z-index:-1;inset:0;
+  background:
+    linear-gradient(180deg,#0b1018 0%,transparent 260px,transparent calc(100% - 240px),#0b1018 100%),
+    linear-gradient(90deg,#09111c82,#0b10184d 52%,#09111c82),
+    url("design/crab-starfield.webp") center top / max(100%,1150px) auto repeat-y;
+  opacity:.54;
+}
 .collection{padding:54px 0 70px}
 h2{font-size:clamp(2.2rem,4.7vw,3.65rem);letter-spacing:-.04em}
 .controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px;margin:27px 0 25px}
