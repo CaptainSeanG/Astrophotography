@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Sean Gallagher’s photographs of galaxies, nebulae, and the night sky.">
+  <title>Sean Gallagher Astrophotography</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="gallery-data.js"></script>
+  <script defer src="gallery.js"></script>
+</head>
+<body>
+  <header class="top"><div class="wrap nav">
+    <a class="brand" href="#home"><span aria-hidden="true">✦</span> Sean Gallagher <small>Astrophotography</small></a>
+    <nav aria-label="Main navigation"><a href="#home">Home</a><a href="#gallery">Gallery</a><a href="#about">About</a></nav>
+  </div></header>
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-photo" alt="" fetchpriority="high">
+      <div class="wrap hero-content">
+        <h1 id="hero-title">Sean Gallagher<br><em>Astrophotography</em></h1>
+        <p>Exploring the universe, one photograph at a time.</p>
+        <a class="primary" href="#gallery">Explore the gallery <span aria-hidden="true">↓</span></a>
+      </div>
+      <button class="hero-credit" type="button" data-target="m106">Messier 106 <span aria-hidden="true">↗</span></button>
+    </section>
+    <section id="gallery" class="wrap collection" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">The gallery</h2>
+      <div class="controls">
+        <label>Search <input id="search" type="search" placeholder="Target name or catalog number"></label>
+        <label>Object type <select id="type"><option value="">All objects</option><option>Galaxy</option><option>Nebula</option></select></label>
+        <label>Sort by <select id="sort"><option value="recent">Recently updated</option><option value="name">Name</option><option value="hours">Integrated hours</option></select></label>
+      </div>
+      <p id="empty" role="status" hidden>No photographs match your search.</p>
+      <div id="photographs" class="grid"></div>
+    </section>
+    <section id="about" class="about"><div class="wrap about-inner">
+      <h2>About the gallery</h2>
+      <div><p>Sean Gallagher Astrophotography brings together finished photographs from my deep-sky imaging library. The collection includes nearby stellar remnants and galaxies millions of light-years away.</p>
+      <h3>Acquisition and processing</h3><p>I use N.I.N.A. for acquisition and PixInsight and Astro Automation for processing. Integration times come from the processing records for the displayed photograph.</p></div>
+    </div></section>
+  </main>
+  <footer class="wrap">© Sean Gallagher — All Rights Reserved.</footer>
+  <dialog id="detail" aria-labelledby="detail-title">
+    <div class="detail-layout">
+      <div class="detail-photo"><button id="enlarge" type="button" aria-label="Open full-resolution viewer"><img id="preview" alt=""><span>View full resolution ↗</span></button></div>
+      <section class="detail-copy"><button class="close" id="close-detail" type="button" aria-label="Close photograph" autofocus>×</button>
+        <p id="detail-alias" class="alias"></p><h2 id="detail-title"></h2><p id="description"></p>
+        <dl id="facts" aria-describedby="capture-note"></dl>
+        <p id="capture-note">¹ Total captured in the LIGHT Library for this target.</p>
+        <a id="source" target="_blank" rel="noopener">Read about this target ↗</a>
+      </section>
+    </div>
+  </dialog>
+  <dialog id="viewer" aria-label="Full-resolution photograph">
+    <div class="toolbar"><strong id="viewer-title"></strong><div class="zoom-actions">
+      <button id="zoom-out" aria-label="Zoom out">−</button><button id="fit">Fit</button><button id="actual" aria-label="View original pixel dimensions">100%</button><button id="zoom-in" aria-label="Zoom in">+</button><button id="close-viewer" aria-label="Close full-resolution viewer" autofocus>×</button>
+    </div></div>
+    <div id="stage" tabindex="0" aria-label="Photograph. Drag or use arrow keys to pan. Use plus or minus to zoom."><img id="full" alt="" draggable="false"></div>
+    <p id="zoom-status" role="status"></p>
+  </dialog>
+</body>
+</html>
