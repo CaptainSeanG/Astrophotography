@@ -46,23 +46,6 @@ const galleryData = [
     "capturedHours": 1.5
   },
   {
-    "integrationSeconds": null,
-    "finished": "2026-10-17T21:18:27.293Z",
-    "width": 2991,
-    "aliases": "IC 1848, W5",
-    "height": 2999,
-    "constellation": "Cassiopeia",
-    "description": "Young stars are shaping this cloud of gas and dust near the Heart Nebula. Their winds carve cavities into material that can still form new stars.",
-    "id": "ic1848",
-    "capturedHours": 7.08,
-    "subtype": "Star-forming region",
-    "distance": "6,500",
-    "filters": [],
-    "name": "Soul Nebula",
-    "type": "Nebula",
-    "source": "https://science.nasa.gov/photojournal/soul-nebula/"
-  },
-  {
     "id": "ic410",
     "name": "IC 410",
     "aliases": "IC410",
@@ -84,69 +67,6 @@ const galleryData = [
       }
     ],
     "capturedHours": 14.35
-  },
-  {
-    "id": "ic417",
-    "name": "IC 417",
-    "aliases": "IC417",
-    "finished": "2026-11-10T12:36:25.757-07:00",
-    "width": 2998,
-    "height": 2999,
-    "images": {
-      "thumb": "images/ic417-d2c4960fad744ff71c87-thumb.webp",
-      "preview": "images/ic417-d2c4960fad744ff71c87-preview.webp",
-      "full": "images/ic417-d2c4960fad744ff71c87-full.webp"
-    },
-    "sha256": "d2c4960fad744ff71c879aed113a4509c3a19a01c5de10a792760eb09b721959",
-    "integrationSeconds": 7500.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 7500,
-        "frames": 25
-      }
-    ],
-    "capturedHours": 2.08
-  },
-  {
-    "id": "ic5070",
-    "name": "IC 5070 Pelican Nebula",
-    "aliases": "IC5070",
-    "finished": "2026-11-14T13:49:25.152-07:00",
-    "width": 2944,
-    "height": 2976,
-    "images": {
-      "thumb": "images/ic5070-b31fb79a88bc6c3dffef-thumb.webp",
-      "preview": "images/ic5070-b31fb79a88bc6c3dffef-preview.webp",
-      "full": "images/ic5070-b31fb79a88bc6c3dffef-full.webp"
-    },
-    "sha256": "b31fb79a88bc6c3dffefacbf2d3bb7a41be6c44fff10c3ae5a562de1c7f8ce7e",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 2.49
-  },
-  {
-    "id": "ic5146",
-    "name": "Caldwell 19",
-    "aliases": "C19, Caldwell 19, Cocoon Nebula, IC 5146, IC5146",
-    "finished": "2026-10-28T16:44:22.023-07:00",
-    "width": 2999,
-    "height": 3002,
-    "images": {
-      "thumb": "images/ic5146-bb280b9dd56c9a481dc3-thumb.webp",
-      "preview": "images/ic5146-bb280b9dd56c9a481dc3-preview.webp",
-      "full": "images/ic5146-bb280b9dd56c9a481dc3-full.webp"
-    },
-    "sha256": "bb280b9dd56c9a481dc34eb1b12a8915abc2c814c21a86bd7e098cc0f5120fce",
-    "integrationSeconds": 1800.0,
-    "filters": [
-      {
-        "filter": "Broadband",
-        "seconds": 1800,
-        "frames": 6
-      }
-    ],
-    "capturedHours": 0.67
   },
   {
     "integrationSeconds": 4200.0,
@@ -172,121 +92,6 @@ const galleryData = [
     "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/"
   },
   {
-    "integrationSeconds": 77400.0,
-    "finished": "2026-11-14T04:33:22.907Z",
-    "width": 2970,
-    "aliases": "M106, NGC 4258",
-    "height": 2984,
-    "constellation": "Canes Venatici",
-    "description": "This spiral galaxy has an active core and an extra pair of arms traced by hot gas. Astronomers study those unusual arms to understand how the central black hole affects the galaxy around it.",
-    "id": "m106",
-    "capturedHours": 21.5,
-    "subtype": "Spiral galaxy",
-    "distance": "24 million",
-    "filters": [
-      {
-        "filter": "Broadband",
-        "frames": 258,
-        "seconds": 77400
-      }
-    ],
-    "name": "Messier 106",
-    "type": "Galaxy",
-    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-106/"
-  },
-  {
-    "id": "m65",
-    "name": "M 65 Spiral Galacy",
-    "aliases": "M65",
-    "finished": "2026-10-31T23:52:17.030763-07:00",
-    "width": 2982,
-    "height": 2991,
-    "images": {
-      "thumb": "images/m65-085d2e3704872ec71d2e-thumb.webp",
-      "preview": "images/m65-085d2e3704872ec71d2e-preview.webp",
-      "full": "images/m65-085d2e3704872ec71d2e-full.webp"
-    },
-    "sha256": "085d2e3704872ec71d2ef0dc0cc660eda09ebe048a3285875ec492a157104bbd",
-    "integrationSeconds": 10500.0,
-    "filters": [
-      {
-        "filter": "Broadband",
-        "seconds": 10500,
-        "frames": 35
-      }
-    ],
-    "capturedHours": 3.08
-  },
-  {
-    "id": "m74",
-    "name": "M 74 Phantom Galaxy",
-    "aliases": "M74",
-    "finished": "2026-11-11T13:18:18.502-07:00",
-    "width": 2995,
-    "height": 2979,
-    "images": {
-      "thumb": "images/m74-44476e85ba348a0623a2-thumb.webp",
-      "preview": "images/m74-44476e85ba348a0623a2-preview.webp",
-      "full": "images/m74-44476e85ba348a0623a2-full.webp"
-    },
-    "sha256": "44476e85ba348a0623a2bba6ae25f707a3b5a0bf79afc5d05ab2a695564dfbc7",
-    "integrationSeconds": 8700.0,
-    "filters": [
-      {
-        "filter": "Broadband",
-        "seconds": 8700,
-        "frames": 29
-      }
-    ],
-    "capturedHours": 11.5
-  },
-  {
-    "id": "m78",
-    "name": "M 78",
-    "aliases": "M78",
-    "finished": "2026-11-09T14:44:00.882-07:00",
-    "width": 2796,
-    "height": 2912,
-    "images": {
-      "thumb": "images/m78-2f78272ef18dcbf10cc7-thumb.webp",
-      "preview": "images/m78-2f78272ef18dcbf10cc7-preview.webp",
-      "full": "images/m78-2f78272ef18dcbf10cc7-full.webp"
-    },
-    "sha256": "2f78272ef18dcbf10cc7a1f5bce650ee819f549c30096eacb66c8f5b1bed0eba",
-    "integrationSeconds": 5700.0,
-    "filters": [
-      {
-        "filter": "Broadband",
-        "seconds": 5700,
-        "frames": 19
-      }
-    ],
-    "capturedHours": 3.33
-  },
-  {
-    "id": "m97",
-    "name": "M 97 - Owl Nebula",
-    "aliases": "M97",
-    "finished": "2026-11-12T11:15:28.771-07:00",
-    "width": 3000,
-    "height": 3003,
-    "images": {
-      "thumb": "images/m97-dd0ab3be757595002fed-thumb.webp",
-      "preview": "images/m97-dd0ab3be757595002fed-preview.webp",
-      "full": "images/m97-dd0ab3be757595002fed-full.webp"
-    },
-    "sha256": "dd0ab3be757595002fed13fb65de9ad098055a824678e2cf14914e27120ce920",
-    "integrationSeconds": 3300.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 3300,
-        "frames": 11
-      }
-    ],
-    "capturedHours": 2.17
-  },
-  {
     "id": "melotte15",
     "name": "Melotte 15",
     "aliases": "Melotte 15, MELOTTE15",
@@ -310,34 +115,6 @@ const galleryData = [
     "capturedHours": 5.25
   },
   {
-    "integrationSeconds": 27000.0,
-    "finished": "2026-10-16T23:09:02.453Z",
-    "width": 2143,
-    "aliases": "M1, NGC 1952",
-    "height": 2144,
-    "constellation": "Taurus",
-    "description": "Filaments of gas mark the remains of a stellar explosion seen from Earth in 1054. The rapidly spinning neutron star at the center powers much of the nebula's glow.",
-    "id": "ngc1952",
-    "capturedHours": 44,
-    "subtype": "Supernova remnant",
-    "distance": "6,500",
-    "filters": [
-      {
-        "filter": "Broadband",
-        "frames": 25,
-        "seconds": 7500
-      },
-      {
-        "filter": "L-eXtreme",
-        "frames": 65,
-        "seconds": 19500
-      }
-    ],
-    "name": "Crab Nebula",
-    "type": "Nebula",
-    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/"
-  },
-  {
     "id": "ngc1976",
     "name": "M 42 Orion Nebula",
     "aliases": "M42, Messier 42, NGC 1976, NGC1976, Orion Nebula",
@@ -355,50 +132,27 @@ const galleryData = [
     "capturedHours": 0.87
   },
   {
-    "id": "ngc2403",
-    "name": "NGC 2403 - Spiral Galaxy",
-    "aliases": "NGC 2403, NGC 2403 - Spiral Galaxy, NGC2403",
-    "finished": "2026-11-08T09:50:58.927-07:00",
-    "width": 2967,
-    "height": 2942,
+    "id": "ngc2419",
+    "name": "Caldwell 25",
+    "aliases": "C25, Caldwell 25, NGC 2419, NGC2419",
+    "finished": "2026-10-31T17:29:00.588-07:00",
+    "width": 2983,
+    "height": 2968,
     "images": {
-      "thumb": "images/ngc2403-3f7eac2461fca660e977-thumb.webp",
-      "preview": "images/ngc2403-3f7eac2461fca660e977-preview.webp",
-      "full": "images/ngc2403-3f7eac2461fca660e977-full.webp"
+      "thumb": "images/ngc2419-88e3c15234f6ce98194d-thumb.webp",
+      "preview": "images/ngc2419-88e3c15234f6ce98194d-preview.webp",
+      "full": "images/ngc2419-88e3c15234f6ce98194d-full.webp"
     },
-    "sha256": "3f7eac2461fca660e97791f8d2c478066922b43794109db93b6d9fa5cd21d0de",
-    "integrationSeconds": 32400.0,
+    "sha256": "88e3c15234f6ce98194d9181778ba8ad7561f311e4e308f4f419d40dfc712ba9",
+    "integrationSeconds": 6600.0,
     "filters": [
       {
         "filter": "Broadband",
-        "seconds": 32400,
-        "frames": 108
+        "seconds": 6600,
+        "frames": 22
       }
     ],
-    "capturedHours": 27.92
-  },
-  {
-    "id": "ngc253",
-    "name": "NGC 253",
-    "aliases": "NGC253",
-    "finished": "2026-11-09T10:41:34.067-07:00",
-    "width": 3001,
-    "height": 3002,
-    "images": {
-      "thumb": "images/ngc253-78cd96edb660780f0540-thumb.webp",
-      "preview": "images/ngc253-78cd96edb660780f0540-preview.webp",
-      "full": "images/ngc253-78cd96edb660780f0540-full.webp"
-    },
-    "sha256": "78cd96edb660780f0540631735c4a8c8258e9770adc7a0970a3ee4fba7d5960d",
-    "integrationSeconds": 1500.0,
-    "filters": [
-      {
-        "filter": "Broadband",
-        "seconds": 1500,
-        "frames": 5
-      }
-    ],
-    "capturedHours": 6
+    "capturedHours": 1.83
   },
   {
     "id": "ngc3034",
@@ -470,52 +224,6 @@ const galleryData = [
     "capturedHours": 10.67
   },
   {
-    "id": "ngc7331",
-    "name": "NGC 7331",
-    "aliases": "NGC7331",
-    "finished": "2026-10-20T10:29:05.362-07:00",
-    "width": 2984,
-    "height": 2981,
-    "images": {
-      "thumb": "images/ngc7331-b4bb6c7f751ea7c2e031-thumb.webp",
-      "preview": "images/ngc7331-b4bb6c7f751ea7c2e031-preview.webp",
-      "full": "images/ngc7331-b4bb6c7f751ea7c2e031-full.webp"
-    },
-    "sha256": "b4bb6c7f751ea7c2e0319906ad2777bf28b78488460bd69d2621be915cd221fa",
-    "integrationSeconds": 15300.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 15300,
-        "frames": 51
-      }
-    ],
-    "capturedHours": 5.58
-  },
-  {
-    "id": "ngc7538",
-    "name": "NGC 7538",
-    "aliases": "NGC7538",
-    "finished": "2026-11-08T17:26:34.991-07:00",
-    "width": 2946,
-    "height": 2952,
-    "images": {
-      "thumb": "images/ngc7538-8cf9fa4428f17ed57922-thumb.webp",
-      "preview": "images/ngc7538-8cf9fa4428f17ed57922-preview.webp",
-      "full": "images/ngc7538-8cf9fa4428f17ed57922-full.webp"
-    },
-    "sha256": "8cf9fa4428f17ed579221ed5575389228e8ba8f6e817bd3a920bc6fcd72f6107",
-    "integrationSeconds": 29400.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 29400,
-        "frames": 98
-      }
-    ],
-    "capturedHours": 8.33
-  },
-  {
     "id": "ngc7635",
     "name": "NGC 7635 Bubble Nebula",
     "aliases": "Bubble Nebula, C11, Caldwell 11, NGC 7635, NGC7635",
@@ -537,29 +245,6 @@ const galleryData = [
       }
     ],
     "capturedHours": 25.23
-  },
-  {
-    "id": "ngc891",
-    "name": "NGC 891 Silver Sliver Galaxy",
-    "aliases": "NGC891",
-    "finished": "2026-11-03T16:41:03.211-07:00",
-    "width": 2958,
-    "height": 2955,
-    "images": {
-      "thumb": "images/ngc891-9931275401a778cbeacb-thumb.webp",
-      "preview": "images/ngc891-9931275401a778cbeacb-preview.webp",
-      "full": "images/ngc891-9931275401a778cbeacb-full.webp"
-    },
-    "sha256": "9931275401a778cbeacb73d684b3027a7e49b2a6dd21352850e111649c904c8b",
-    "integrationSeconds": 76500.0,
-    "filters": [
-      {
-        "filter": "Broadband",
-        "seconds": 76500,
-        "frames": 255
-      }
-    ],
-    "capturedHours": 21.25
   },
   {
     "id": "ngc896",
@@ -585,117 +270,372 @@ const galleryData = [
     "capturedHours": 3.75
   },
   {
-    "id": "ngc925",
-    "name": "NGC 925 Spiral Galaxy",
-    "aliases": "NGC925",
-    "finished": "2026-11-04T10:44:37.692-07:00",
-    "width": 2993,
-    "height": 2996,
-    "images": {
-      "thumb": "images/ngc925-ec6ea9daab42791f1215-thumb.webp",
-      "preview": "images/ngc925-ec6ea9daab42791f1215-preview.webp",
-      "full": "images/ngc925-ec6ea9daab42791f1215-full.webp"
-    },
-    "sha256": "ec6ea9daab42791f1215b2bcf7fdd507b2ea65042bababe5dc180023a6807afb",
-    "integrationSeconds": 8400.0,
-    "filters": [
-      {
-        "filter": "Broadband",
-        "seconds": 8400,
-        "frames": 28
-      }
-    ],
-    "capturedHours": 21.92
-  },
-  {
-    "id": "ngc5194",
-    "name": "M 51 Whirlpool Galaxy",
-    "aliases": "M51, Messier 51, NGC 5194, NGC5194, Whirlpool Galaxy",
-    "finished": "2026-10-11T19:33:45.4630000+00:00",
-    "width": 2093,
-    "height": 2115,
-    "images": {
-      "thumb": "images/ngc5194-ad20c544e66b1ac9af2a-thumb.webp",
-      "preview": "images/ngc5194-ad20c544e66b1ac9af2a-preview.webp",
-      "full": "images/ngc5194-ad20c544e66b1ac9af2a-full.webp"
-    },
-    "sha256": "ad20c544e66b1ac9af2ad77f7c70274dbb3a82b3ce22876eb851868984596f26",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 21.9
-  },
-  {
-    "id": "m33",
-    "name": "M 33 Triangulum Galaxy",
-    "aliases": "M 33 Triangulum Galaxy, M33, Triangulum Pinwheel",
-    "finished": "2026-10-10T07:22:40.5330000+00:00",
-    "width": 3003,
-    "height": 2999,
-    "images": {
-      "thumb": "images/m33-42073b08e1b961496108-thumb.webp",
-      "preview": "images/m33-42073b08e1b961496108-preview.webp",
-      "full": "images/m33-42073b08e1b961496108-full.webp"
-    },
-    "sha256": "42073b08e1b9614961084cdc73264d1e918b6e246837635f92542ed5e9dc0de2",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 3.9
-  },
-  {
-    "id": "ic434-b33",
-    "name": "Horsehead / IC 434 field",
-    "aliases": "IC 434 Horsehead, IC 434 Horsehead Nebula, IC434/B33",
-    "finished": "2026-10-14T05:23:24.0220000+00:00",
-    "width": 2181,
-    "height": 2145,
-    "images": {
-      "thumb": "images/ic434-b33-26497ccff7f64bc52190-thumb.webp",
-      "preview": "images/ic434-b33-26497ccff7f64bc52190-preview.webp",
-      "full": "images/ic434-b33-26497ccff7f64bc52190-full.webp"
-    },
-    "sha256": "26497ccff7f64bc52190e59d23f7d8a0d54662f7d848c5394f9332a67300ea9d",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 49.58
-  },
-  {
     "id": "ngc1491",
     "name": "NGC 1491 Fossil Footprint",
     "aliases": "NGC1491",
-    "finished": "2026-10-14T17:24:58.4270000+00:00",
+    "finished": "2026-10-14T17:24:52.8251784+00:00",
     "width": 2124,
     "height": 2125,
     "images": {
-      "thumb": "images/ngc1491-6c8ccd482b524dff7676-thumb.webp",
-      "preview": "images/ngc1491-6c8ccd482b524dff7676-preview.webp",
-      "full": "images/ngc1491-6c8ccd482b524dff7676-full.webp"
+      "thumb": "images/ngc1491-7a990ec2d9be6475c3ae-thumb.webp",
+      "preview": "images/ngc1491-7a990ec2d9be6475c3ae-preview.webp",
+      "full": "images/ngc1491-7a990ec2d9be6475c3ae-full.webp"
     },
-    "sha256": "6c8ccd482b524dff7676552d5ee16b7c73b62df24d533810e0bded84643664a7",
+    "sha256": "7a990ec2d9be6475c3ae7654d65ebdcb284f01f4c925dc230b96efa64e80f9fc",
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": 16.38
   },
   {
-    "id": "ngc2419",
-    "name": "Caldwell 25",
-    "aliases": "C25, Caldwell 25, NGC 2419, NGC2419",
-    "finished": "2026-11-01T00:29:00.5880000+00:00",
-    "width": 2983,
-    "height": 2968,
+    "id": "ngc7331",
+    "name": "NGC 7331",
+    "aliases": "NGC7331",
+    "finished": "2026-11-02T03:39:38.1623381+00:00",
+    "width": 2984,
+    "height": 2981,
     "images": {
-      "thumb": "images/ngc2419-88e3c15234f6ce98194d-thumb.webp",
-      "preview": "images/ngc2419-88e3c15234f6ce98194d-preview.webp",
-      "full": "images/ngc2419-88e3c15234f6ce98194d-full.webp"
+      "thumb": "images/ngc7331-e33c62069ccfc531b4ed-thumb.webp",
+      "preview": "images/ngc7331-e33c62069ccfc531b4ed-preview.webp",
+      "full": "images/ngc7331-e33c62069ccfc531b4ed-full.webp"
     },
-    "sha256": "88e3c15234f6ce98194d9181778ba8ad7561f311e4e308f4f419d40dfc712ba9",
-    "integrationSeconds": 6600.0,
+    "sha256": "e33c62069ccfc531b4edbcb2ce0d731a264e2f8e4dc63579c964f7be15d427eb",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 5.58
+  },
+  {
+    "id": "ic417",
+    "name": "IC 417",
+    "aliases": "IC417",
+    "finished": "2026-11-12T23:46:14.0855698+00:00",
+    "width": 2998,
+    "height": 2999,
+    "images": {
+      "thumb": "images/ic417-9a7a230e0e582de04309-thumb.webp",
+      "preview": "images/ic417-9a7a230e0e582de04309-preview.webp",
+      "full": "images/ic417-9a7a230e0e582de04309-full.webp"
+    },
+    "sha256": "9a7a230e0e582de0430914fe1ab1b52cbb3d41f0b657d6bdae06cda02f4cc81d",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 2.08
+  },
+  {
+    "id": "ngc925",
+    "name": "NGC 925 Spiral Galaxy",
+    "aliases": "NGC925",
+    "finished": "2026-11-04T17:58:58.3973476+00:00",
+    "width": 2993,
+    "height": 2996,
+    "images": {
+      "thumb": "images/ngc925-3def15ce639fd37b3977-thumb.webp",
+      "preview": "images/ngc925-3def15ce639fd37b3977-preview.webp",
+      "full": "images/ngc925-3def15ce639fd37b3977-full.webp"
+    },
+    "sha256": "3def15ce639fd37b3977f3e1d78101b90d708b7d4d4e5c84e9a4321310314e2d",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 21.92
+  },
+  {
+    "id": "m65",
+    "name": "M 65 Spiral Galacy",
+    "aliases": "M65",
+    "finished": "2026-11-02T03:29:27.6884001+00:00",
+    "width": 2982,
+    "height": 2991,
+    "images": {
+      "thumb": "images/m65-d41de1ecfc14b534dd06-thumb.webp",
+      "preview": "images/m65-d41de1ecfc14b534dd06-preview.webp",
+      "full": "images/m65-d41de1ecfc14b534dd06-full.webp"
+    },
+    "sha256": "d41de1ecfc14b534dd06429d8c6c62748e2072523d45d012f8c644f033738504",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 3.08
+  },
+  {
+    "id": "ngc5194",
+    "name": "M 51 Whirlpool Galaxy",
+    "aliases": "M51, Messier 51, NGC 5194, NGC5194, Whirlpool Galaxy",
+    "finished": "2026-10-11T19:33:38.6801993+00:00",
+    "width": 2093,
+    "height": 2115,
+    "images": {
+      "thumb": "images/ngc5194-9db95ba3078988944386-thumb.webp",
+      "preview": "images/ngc5194-9db95ba3078988944386-preview.webp",
+      "full": "images/ngc5194-9db95ba3078988944386-full.webp"
+    },
+    "sha256": "9db95ba307898894438647e6deff54a4974dba276bdd6b723d4d7304cbe46efe",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 21.9
+  },
+  {
+    "id": "ic5070",
+    "name": "IC 5070 Pelican Nebula",
+    "aliases": "IC5070",
+    "finished": "2026-11-14T20:54:15.0391852+00:00",
+    "width": 2944,
+    "height": 2976,
+    "images": {
+      "thumb": "images/ic5070-fb3211c06d6c585df0df-thumb.webp",
+      "preview": "images/ic5070-fb3211c06d6c585df0df-preview.webp",
+      "full": "images/ic5070-fb3211c06d6c585df0df-full.webp"
+    },
+    "sha256": "fb3211c06d6c585df0dfb14e5138ce8a40c0a733d170cbf169b365b3eac2a270",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 2.49
+  },
+  {
+    "id": "ngc7538",
+    "name": "NGC 7538",
+    "aliases": "NGC7538",
+    "finished": "2026-11-09T00:46:32.5500573+00:00",
+    "width": 2946,
+    "height": 2952,
+    "images": {
+      "thumb": "images/ngc7538-c2da1e9c82e64713abd5-thumb.webp",
+      "preview": "images/ngc7538-c2da1e9c82e64713abd5-preview.webp",
+      "full": "images/ngc7538-c2da1e9c82e64713abd5-full.webp"
+    },
+    "sha256": "c2da1e9c82e64713abd590d101b838962c0e56dfe4c7bc4787d7d05cd89070bc",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 8.33
+  },
+  {
+    "id": "m74",
+    "name": "M 74 Phantom Galaxy",
+    "aliases": "M74",
+    "finished": "2026-11-11T20:41:21.1928614+00:00",
+    "width": 2995,
+    "height": 2979,
+    "images": {
+      "thumb": "images/m74-a1217f6fcb47eac0870e-thumb.webp",
+      "preview": "images/m74-a1217f6fcb47eac0870e-preview.webp",
+      "full": "images/m74-a1217f6fcb47eac0870e-full.webp"
+    },
+    "sha256": "a1217f6fcb47eac0870e736ed5aba9a8cae02e065c0c1d54ddb48c2f9b53ec08",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 11.5
+  },
+  {
+    "id": "m33",
+    "name": "M 33 Triangulum Galaxy",
+    "aliases": "M 33 Triangulum Galaxy, M33, Triangulum Pinwheel",
+    "finished": "2026-10-10T07:22:19.0821360+00:00",
+    "width": 3003,
+    "height": 2999,
+    "images": {
+      "thumb": "images/m33-e454d6e1404839407b51-thumb.webp",
+      "preview": "images/m33-e454d6e1404839407b51-preview.webp",
+      "full": "images/m33-e454d6e1404839407b51-full.webp"
+    },
+    "sha256": "e454d6e1404839407b51036bd7a707dabc5700638ccda84e607793693a544395",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 3.9
+  },
+  {
+    "id": "m78",
+    "name": "M 78",
+    "aliases": "M78",
+    "finished": "2026-11-13T04:52:18.2942527+00:00",
+    "width": 2796,
+    "height": 2912,
+    "images": {
+      "thumb": "images/m78-64d763b50dac35c71b98-thumb.webp",
+      "preview": "images/m78-64d763b50dac35c71b98-preview.webp",
+      "full": "images/m78-64d763b50dac35c71b98-full.webp"
+    },
+    "sha256": "64d763b50dac35c71b98a936a379d83ec1b455f3bdbe43ad5881754c09a90346",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 3.33
+  },
+  {
+    "id": "ngc253",
+    "name": "NGC 253",
+    "aliases": "NGC253",
+    "finished": "2026-11-09T17:58:03.3470234+00:00",
+    "width": 3001,
+    "height": 3002,
+    "images": {
+      "thumb": "images/ngc253-ddcedfa5a854654a5132-thumb.webp",
+      "preview": "images/ngc253-ddcedfa5a854654a5132-preview.webp",
+      "full": "images/ngc253-ddcedfa5a854654a5132-full.webp"
+    },
+    "sha256": "ddcedfa5a854654a51323b306060cec5ee74bb4fee7d76bb7456bc0a583db5e0",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 6
+  },
+  {
+    "id": "ic1848",
+    "name": "Soul Nebula",
+    "aliases": "IC 1848, W5",
+    "type": "Nebula",
+    "subtype": "Star-forming region",
+    "constellation": "Cassiopeia",
+    "distance": "6,500",
+    "description": "Young stars are shaping this cloud of gas and dust near the Heart Nebula. Their winds carve cavities into material that can still form new stars.",
+    "source": "https://science.nasa.gov/photojournal/soul-nebula/",
+    "finished": "2026-10-17T22:44:36.9771903+00:00",
+    "width": 2991,
+    "height": 2999,
+    "images": {
+      "thumb": "images/ic1848-9872ce27dc881d08cd8f-thumb.webp",
+      "preview": "images/ic1848-9872ce27dc881d08cd8f-preview.webp",
+      "full": "images/ic1848-9872ce27dc881d08cd8f-full.webp"
+    },
+    "sha256": "9872ce27dc881d08cd8f51f297194a4474e3fabe6d28f42663602fd21f60b270",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 7.08
+  },
+  {
+    "id": "ngc891",
+    "name": "NGC 891 Silver Sliver Galaxy",
+    "aliases": "NGC891",
+    "finished": "2026-11-04T05:10:41.9992403+00:00",
+    "width": 2000,
+    "height": 2000,
+    "images": {
+      "thumb": "images/ngc891-7b8a60b86c07a2976258-thumb.webp",
+      "preview": "images/ngc891-7b8a60b86c07a2976258-preview.webp",
+      "full": "images/ngc891-7b8a60b86c07a2976258-full.webp"
+    },
+    "sha256": "7b8a60b86c07a2976258ee1e9959e99788e90e7557d8e8eb0d01b126a6a68187",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 21.25
+  },
+  {
+    "id": "m106",
+    "name": "Messier 106",
+    "aliases": "M106, NGC 4258",
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy",
+    "constellation": "Canes Venatici",
+    "distance": "24 million",
+    "description": "This spiral galaxy has an active core and an extra pair of arms traced by hot gas. Astronomers study those unusual arms to understand how the central black hole affects the galaxy around it.",
+    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-106/",
+    "finished": "2026-11-14T04:39:26.4692425+00:00",
+    "width": 2970,
+    "height": 2984,
+    "images": {
+      "thumb": "images/m106-14ad7e762c5261986283-thumb.webp",
+      "preview": "images/m106-14ad7e762c5261986283-preview.webp",
+      "full": "images/m106-14ad7e762c5261986283-full.webp"
+    },
+    "sha256": "14ad7e762c5261986283e3e98ddc53454fa6a3fb2f8e94185f3fd1c687cf30d8",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 21.5
+  },
+  {
+    "id": "ic434-b33",
+    "name": "Horsehead / IC 434 field",
+    "aliases": "IC 434 Horsehead, IC 434 Horsehead Nebula, IC434/B33",
+    "finished": "2026-11-14T20:36:49.2815028+00:00",
+    "width": 2181,
+    "height": 2145,
+    "images": {
+      "thumb": "images/ic434-b33-1ff3331e01ab35ccc613-thumb.webp",
+      "preview": "images/ic434-b33-1ff3331e01ab35ccc613-preview.webp",
+      "full": "images/ic434-b33-1ff3331e01ab35ccc613-full.webp"
+    },
+    "sha256": "1ff3331e01ab35ccc6137fc54a5c584d70ead0f656e0f978fac7df1c6f326dbc",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 49.58
+  },
+  {
+    "id": "m97",
+    "name": "M 97 - Owl Nebula",
+    "aliases": "M97",
+    "finished": "2026-11-14T17:09:02.9741853+00:00",
+    "width": 3000,
+    "height": 3003,
+    "images": {
+      "thumb": "images/m97-cd121feef28329019d58-thumb.webp",
+      "preview": "images/m97-cd121feef28329019d58-preview.webp",
+      "full": "images/m97-cd121feef28329019d58-full.webp"
+    },
+    "sha256": "cd121feef28329019d58d832366e22f4b9d33f8300153621c973168e16979f89",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 2.17
+  },
+  {
+    "id": "ic5146",
+    "name": "Caldwell 19",
+    "aliases": "C19, Caldwell 19, Cocoon Nebula, IC 5146, IC5146",
+    "finished": "2026-11-14T20:32:19.2423639+00:00",
+    "width": 2999,
+    "height": 3002,
+    "images": {
+      "thumb": "images/ic5146-b3d10c04875dcbdc5a40-thumb.webp",
+      "preview": "images/ic5146-b3d10c04875dcbdc5a40-preview.webp",
+      "full": "images/ic5146-b3d10c04875dcbdc5a40-full.webp"
+    },
+    "sha256": "b3d10c04875dcbdc5a40c8979940dc8be6846a1d9c84c6fe15a73f6bc10b821d",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 0.67
+  },
+  {
+    "id": "ngc2403",
+    "name": "NGC 2403 - Spiral Galaxy",
+    "aliases": "NGC 2403, NGC 2403 - Spiral Galaxy, NGC2403",
+    "finished": "2026-11-08T16:58:27.3949848+00:00",
+    "width": 2200,
+    "height": 2200,
+    "images": {
+      "thumb": "images/ngc2403-eb368f95864c59047c64-thumb.webp",
+      "preview": "images/ngc2403-eb368f95864c59047c64-preview.webp",
+      "full": "images/ngc2403-eb368f95864c59047c64-full.webp"
+    },
+    "sha256": "eb368f95864c59047c64ea5b29896220126ce31dace08ccf576fa00d013f0e0a",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 27.92
+  },
+  {
+    "id": "ngc1952",
+    "name": "Crab Nebula",
+    "aliases": "M1, NGC 1952",
+    "type": "Nebula",
+    "subtype": "Supernova remnant",
+    "constellation": "Taurus",
+    "distance": "6,500",
+    "description": "Filaments of gas mark the remains of a stellar explosion seen from Earth in 1054. The rapidly spinning neutron star at the center powers much of the nebula's glow.",
+    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/",
+    "finished": "2026-10-16T23:09:02.4530000+00:00",
+    "width": 2143,
+    "height": 2144,
+    "images": {
+      "thumb": "images/ngc1952-4a52765770d0f4ebabf2-thumb.webp",
+      "preview": "images/ngc1952-4a52765770d0f4ebabf2-preview.webp",
+      "full": "images/ngc1952-4a52765770d0f4ebabf2-full.webp"
+    },
+    "sha256": "4a52765770d0f4ebabf2de06b6854d1b8f5c2d11683982df4e3844378ddd3f49",
+    "integrationSeconds": 27000.0,
     "filters": [
       {
         "filter": "Broadband",
-        "seconds": 6600,
-        "frames": 22
+        "frames": 25,
+        "seconds": 7500
+      },
+      {
+        "filter": "L-eXtreme",
+        "frames": 65,
+        "seconds": 19500
       }
     ],
-    "capturedHours": 1.83
+    "capturedHours": 44
   }
 ];
