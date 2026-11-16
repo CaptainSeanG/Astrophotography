@@ -134,6 +134,13 @@ byId('actual').onclick = () => setZoom(1);
 byId('zoom-in').onclick = () => setZoom(zoom * 1.3);
 byId('zoom-out').onclick = () => setZoom(zoom / 1.3);
 viewer.addEventListener('close', () => points.clear());
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  const modal = viewer.open ? viewer : detail.open ? detail : null;
+  if (!modal) return;
+  event.preventDefault();
+  if (!event.repeat) modal.close();
+});
 detail.addEventListener('click', event => {
   if (event.target !== detail) return;
   const rect = detail.getBoundingClientRect();
