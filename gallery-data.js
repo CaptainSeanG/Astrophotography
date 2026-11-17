@@ -552,6 +552,23 @@ const galleryData = [
     "capturedHours": 0.25
   },
   {
+    "id": "ngc2359",
+    "name": "NGC 2359 Thor's Helmet",
+    "aliases": "NGC 2359, NGC 2359 Thors Helmet, NGC2359, Thor's Helmet",
+    "finished": "2021-02-23T10:16:30-07:00",
+    "width": 5158,
+    "height": 5158,
+    "images": {
+      "thumb": "images/ngc2359-8d438424d92fa511ec4d-thumb.webp",
+      "preview": "images/ngc2359-8d438424d92fa511ec4d-preview.webp",
+      "full": "images/ngc2359-8d438424d92fa511ec4d-full.webp"
+    },
+    "sha256": "8d438424d92fa511ec4d159ef782ca4b16e83ca07ccd86da26133f52b8de6050",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 25
+  },
+  {
     "id": "ngc2403",
     "name": "NGC 2403 - Spiral Galaxy",
     "aliases": "NGC 2403, NGC 2403 - Spiral Galaxy, NGC2403",
@@ -848,20 +865,20 @@ const galleryData = [
     "capturedHours": 2.75
   },
   {
-    "id": "ngc2359",
-    "name": "NGC 2359 Thor's Helmet",
-    "aliases": "NGC 2359, NGC 2359 Thors Helmet, NGC2359, Thor's Helmet",
-    "finished": "2021-02-23T17:16:30.0000000+00:00",
-    "width": 5158,
-    "height": 5158,
+    "id": "ngc2244",
+    "name": "NGC 2244 Rosette Nebula",
+    "aliases": "NGC2244",
+    "finished": "2026-11-15T02:38:15.1315496+00:00",
+    "width": 2982,
+    "height": 2974,
     "images": {
-      "thumb": "images/ngc2359-8d438424d92fa511ec4d-thumb.webp",
-      "preview": "images/ngc2359-8d438424d92fa511ec4d-preview.webp",
-      "full": "images/ngc2359-8d438424d92fa511ec4d-full.webp"
+      "thumb": "images/ngc2244-eedf26e612dbd191f6f7-thumb.webp",
+      "preview": "images/ngc2244-eedf26e612dbd191f6f7-preview.webp",
+      "full": "images/ngc2244-eedf26e612dbd191f6f7-full.webp"
     },
-    "sha256": "8d438424d92fa511ec4d159ef782ca4b16e83ca07ccd86da26133f52b8de6050",
+    "sha256": "eedf26e612dbd191f6f724da1370c86c431c4cfcacce706061933ca84f42e3d8",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 25
+    "capturedHours": 2.75
   }
 ];
