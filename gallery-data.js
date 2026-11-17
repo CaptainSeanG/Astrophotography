@@ -211,6 +211,29 @@ const galleryData = [
     "capturedHours": 5.42
   },
   {
+    "id": "m104",
+    "name": "Sombrero Galaxy",
+    "aliases": "M104, NGC 4594",
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy",
+    "constellation": "Virgo",
+    "distance": "28 million",
+    "description": "A dark band of dust crosses the bright central bulge of this nearly edge-on galaxy, giving it the silhouette of a wide-brimmed hat.",
+    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
+    "finished": "2026-10-31T14:47:33.7585577-07:00",
+    "width": 1400,
+    "height": 1400,
+    "images": {
+      "thumb": "images/m104-689175ce444395bf28a0-thumb.webp",
+      "preview": "images/m104-689175ce444395bf28a0-preview.webp",
+      "full": "images/m104-689175ce444395bf28a0-full.webp"
+    },
+    "sha256": "689175ce444395bf28a015f97a73fd1659c0ef1cdb97a41c39d3d4ebb2c7d90b",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 1.33
+  },
+  {
     "id": "m106",
     "name": "Messier 106",
     "aliases": "M106, NGC 4258",
@@ -546,6 +569,23 @@ const galleryData = [
     "capturedHours": 27.92
   },
   {
+    "id": "ngc2419",
+    "name": "Caldwell 25",
+    "aliases": "C25, Caldwell 25, NGC 2419, NGC2419",
+    "finished": "2026-11-16T20:24:02.8823109-07:00",
+    "width": 1000,
+    "height": 1000,
+    "images": {
+      "thumb": "images/ngc2419-05826cf5ce32f9844f17-thumb.webp",
+      "preview": "images/ngc2419-05826cf5ce32f9844f17-preview.webp",
+      "full": "images/ngc2419-05826cf5ce32f9844f17-full.webp"
+    },
+    "sha256": "05826cf5ce32f9844f17f23ff4cf91acb664a37329675b8fea2f87386ab25521",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 1.83
+  },
+  {
     "id": "ngc253",
     "name": "NGC 253",
     "aliases": "NGC253",
@@ -563,21 +603,21 @@ const galleryData = [
     "capturedHours": 6
   },
   {
-    "id": "ngc3031",
-    "name": "Bode's Galaxy",
-    "aliases": "Bode's Galaxy, M81, Messier 81, NGC 3031, NGC3031",
-    "finished": "2026-10-10T00:39:01.5466926-07:00",
-    "width": 2959,
-    "height": 2969,
+    "id": "ngc3034",
+    "name": "M 82 Cigar Galaxy",
+    "aliases": "Cigar Galaxy, M82, Messier 82, NGC 3034, NGC3034",
+    "finished": "2026-11-01T20:21:54.9276581-07:00",
+    "width": 1300,
+    "height": 1300,
     "images": {
-      "thumb": "images/ngc3031-8f1a438449a1c7f8125f-thumb.webp",
-      "preview": "images/ngc3031-8f1a438449a1c7f8125f-preview.webp",
-      "full": "images/ngc3031-8f1a438449a1c7f8125f-full.webp"
+      "thumb": "images/ngc3034-db32a531c2741d4c3f49-thumb.webp",
+      "preview": "images/ngc3034-db32a531c2741d4c3f49-preview.webp",
+      "full": "images/ngc3034-db32a531c2741d4c3f49-full.webp"
     },
-    "sha256": "8f1a438449a1c7f8125f30d0e2dee060da1ca8f043bf2f06c5724778818e1678",
+    "sha256": "db32a531c2741d4c3f494bb5fbb37fb1573a2a454e181c621d44070af0c78e90",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 26.58
+    "capturedHours": 28.37
   },
   {
     "id": "ngc5194",
@@ -791,60 +831,20 @@ const galleryData = [
     "capturedHours": 2.75
   },
   {
-    "id": "ngc2419",
-    "name": "Caldwell 25",
-    "aliases": "C25, Caldwell 25, NGC 2419, NGC2419",
-    "finished": "2026-11-17T03:24:02.8823109+00:00",
-    "width": 1000,
-    "height": 1000,
+    "id": "ngc3031",
+    "name": "Bode's Galaxy",
+    "aliases": "Bode's Galaxy, M81, Messier 81, NGC 3031, NGC3031",
+    "finished": "2026-11-17T03:29:20.1690391+00:00",
+    "width": 2959,
+    "height": 2969,
     "images": {
-      "thumb": "images/ngc2419-05826cf5ce32f9844f17-thumb.webp",
-      "preview": "images/ngc2419-05826cf5ce32f9844f17-preview.webp",
-      "full": "images/ngc2419-05826cf5ce32f9844f17-full.webp"
+      "thumb": "images/ngc3031-a627282eefac25aafaab-thumb.webp",
+      "preview": "images/ngc3031-a627282eefac25aafaab-preview.webp",
+      "full": "images/ngc3031-a627282eefac25aafaab-full.webp"
     },
-    "sha256": "05826cf5ce32f9844f17f23ff4cf91acb664a37329675b8fea2f87386ab25521",
+    "sha256": "a627282eefac25aafaab4213d97abf25820f65b3aa4b4b2d50c6998c479525ba",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 1.83
-  },
-  {
-    "id": "ngc3034",
-    "name": "M 82 Cigar Galaxy",
-    "aliases": "Cigar Galaxy, M82, Messier 82, NGC 3034, NGC3034",
-    "finished": "2026-11-02T03:21:54.9276581+00:00",
-    "width": 1300,
-    "height": 1300,
-    "images": {
-      "thumb": "images/ngc3034-db32a531c2741d4c3f49-thumb.webp",
-      "preview": "images/ngc3034-db32a531c2741d4c3f49-preview.webp",
-      "full": "images/ngc3034-db32a531c2741d4c3f49-full.webp"
-    },
-    "sha256": "db32a531c2741d4c3f494bb5fbb37fb1573a2a454e181c621d44070af0c78e90",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 28.37
-  },
-  {
-    "id": "m104",
-    "name": "Sombrero Galaxy",
-    "aliases": "M104, NGC 4594",
-    "type": "Galaxy",
-    "subtype": "Spiral galaxy",
-    "constellation": "Virgo",
-    "distance": "28 million",
-    "description": "A dark band of dust crosses the bright central bulge of this nearly edge-on galaxy, giving it the silhouette of a wide-brimmed hat.",
-    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
-    "finished": "2026-10-31T21:47:33.7585577+00:00",
-    "width": 1400,
-    "height": 1400,
-    "images": {
-      "thumb": "images/m104-689175ce444395bf28a0-thumb.webp",
-      "preview": "images/m104-689175ce444395bf28a0-preview.webp",
-      "full": "images/m104-689175ce444395bf28a0-full.webp"
-    },
-    "sha256": "689175ce444395bf28a015f97a73fd1659c0ef1cdb97a41c39d3d4ebb2c7d90b",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 1.33
+    "capturedHours": 26.58
   }
 ];
