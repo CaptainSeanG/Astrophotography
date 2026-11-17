@@ -16,7 +16,7 @@ const components = [
     description: 'The second camera repeatedly measures guide stars while the main camera exposes. PHD2 watches their movement and asks the mount for small corrections.',
     detail: 'The guide camera receives light from the off-axis guider, so it watches through the same telescope as the imaging camera. The main camera records the photograph while the ASI290 measures the tracking corrections.', source: 'https://openphdguiding.org/man/Basic_use.htm' },
   { id: 'oag', label: 'ZWO OAG', name: 'ZWO off-axis guider', role: 'Two cameras, one telescope',
-    description: 'A small prism near the edge of the light cone redirects a little starlight upward to the guide camera. Most of the field continues toward the imaging camera.',
+    description: 'A small prism near the edge of the light cone redirects a little starlight sideways to the guide camera. Most of the field continues toward the imaging camera.',
     detail: 'Sharing the main telescope’s optical path helps the guider detect motion that a separate guide scope might miss. The drawing simplifies the prism and adapter spacing.', source: 'https://openphdguiding.org/man/Basic_use.htm' },
   { id: 'filters', label: '5-position EFW', name: 'ZWO five-position filter wheel', role: 'Choosing the wavelengths',
     description: 'The electronic filter wheel places a selected filter in front of the camera. The choice of filter changes which wavelengths of light reach the sensor.',
@@ -250,10 +250,12 @@ function createRig() {
   bar(scene, [0, 1.45, -.16], [0, 1.49, -.13], .235, materials.green, 'mount');
   box(scene, [.23, .38, .43], [.26, 1.67, .02], materials.white, 'mount');
   box(scene, [.025, .3, .34], [.39, 1.67, .02], materials.black, 'mount');
-  cylinder(scene, .21, .63, [0, 1.99, .06], materials.white, 'mount', 'z');
-  cylinder(scene, .215, .045, [0, 1.99, .4], materials.green, 'mount', 'z');
+  const decTop = [0, 2.2, -.14], decBottom = [0, 1.83, .29];
+  bar(scene, decTop, decBottom, .21, materials.white, 'mount');
+  bar(scene, [0, 1.86, .255], decBottom, .215, materials.green, 'mount');
   box(scene, [.52, .16, .43], [0, 2.17, 0], materials.black, 'mount');
-  const counterA = [0, 1.98, -.24], counterB = [.05, .84, -.75];
+  // +Z is north: the shaft continues the declination axis toward the north side.
+  const counterA = decBottom, counterB = [0, .88, 1.395];
   bar(scene, counterA, counterB, .035, materials.steel, 'mount');
   for (const fraction of [.66, .82]) {
     const center = counterA.map((value, i) => value + (counterB[i] - value) * fraction);
@@ -261,6 +263,14 @@ function createRig() {
     weight.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), new THREE.Vector3(...counterB).sub(new THREE.Vector3(...counterA)).normalize());
   }
   anchor('mount', scene, [.28, 1.67, .3]);
+  bar(scene, [-1.45, .015, .7], [-1.45, .015, 1.7], .013, materials.green);
+  bar(scene, [-1.45, .015, 1.7], [-1.59, .015, 1.48], .013, materials.green);
+  bar(scene, [-1.45, .015, 1.7], [-1.31, .015, 1.48], .013, materials.green);
+  const northCanvas = document.createElement('canvas'); northCanvas.width = 256; northCanvas.height = 96;
+  const northContext = northCanvas.getContext('2d'); northContext.fillStyle = '#c3df9b'; northContext.font = 'bold 42px sans-serif'; northContext.textAlign = 'center'; northContext.fillText('NORTH', 128, 64);
+  const northTexture = new THREE.CanvasTexture(northCanvas); northTexture.colorSpace = THREE.SRGBColorSpace;
+  const northLabel = new THREE.Sprite(new THREE.SpriteMaterial({ map: northTexture, transparent: true }));
+  northLabel.position.set(-1.45, .15, 1.95); northLabel.scale.set(.63, .24, 1); scene.add(northLabel);
 
   const optics = new THREE.Group(); optics.position.set(-.18, 2.62, 0); optics.rotation.z = -.22; scene.add(optics);
   cylinder(optics, .27, 2.45, [-.71, 0, 0], materials.white, 'scope', 'x');
@@ -286,7 +296,8 @@ function createRig() {
   cylinder(optics, .215, .35, [.67, 0, 0], materials.black, 'focuser', 'x');
   cylinder(optics, .145, .34, [.98, 0, 0], materials.steel, 'focuser', 'x');
   cylinder(optics, .17, .08, [1.17, 0, 0], materials.black, 'focuser', 'x');
-  box(optics, [.34, .3, .28], [.35, -.26, .27], materials.black, 'focuser');
+  box(optics, [.53, .34, .34], [.25, -.26, .30], materials.black, 'focuser');
+  box(optics, [.55, .035, .37], [.25, -.07, .30], materials.black, 'focuser');
   box(optics, [.56, .045, .13], [.55, -.32, .24], materials.black, 'focuser');
   cylinder(optics, .145, .11, [.72, -.08, .43], materials.steel, 'focuser', 'z');
   cylinder(optics, .153, .045, [.72, -.08, .51], materials.black, 'focuser', 'z');
@@ -294,7 +305,16 @@ function createRig() {
   cylinder(optics, .054, .09, [.35, -.31, .49], materials.steel, 'focuser', 'z');
   const beltPoints = [[.72, .08, .55], [.87, -.08, .55], [.76, -.23, .55], [.35, -.37, .55], [.29, -.31, .55], [.35, -.25, .55], [.57, -.08, .55]];
   const beltCurve = new THREE.CatmullRomCurve3(beltPoints.map(point => new THREE.Vector3(...point)), true);
-  mesh(optics, new THREE.TubeGeometry(beltCurve, 80, .012, 7, true), materials.rubber, [0, 0, 0], 'focuser');
+  const beltSamples = beltCurve.getPoints(100), beltVertices = [];
+  for (let i = 0; i < beltSamples.length - 1; i++) {
+    const a = beltSamples[i], b = beltSamples[i + 1];
+    beltVertices.push(a.x, a.y, .53, b.x, b.y, .53, b.x, b.y, .59, a.x, a.y, .53, b.x, b.y, .59, a.x, a.y, .59);
+  }
+  const beltGeometry = new THREE.BufferGeometry(); beltGeometry.setAttribute('position', new THREE.Float32BufferAttribute(beltVertices, 3)); beltGeometry.computeVertexNormals();
+  const beltMaterial = materials.rubber.clone(); beltMaterial.side = THREE.DoubleSide;
+  mesh(optics, beltGeometry, beltMaterial, [0, 0, 0], 'focuser');
+  cylinder(optics, .11, .07, [.72, -.08, -.29], materials.steel, 'focuser', 'z');
+  cable(optics, [[.05, -.26, .36], [-.1, -.4, .38], [.1, -.5, .18], [.6, -.4, .12]], .012, materials.black, 'focuser');
   for (let i = 0; i < 24; i++) {
     const angle = i / 24 * Math.PI * 2;
     const tooth = box(optics, [.014, .019, .04], [.72 + Math.cos(angle) * .15, -.08 + Math.sin(angle) * .15, .51], materials.black, 'focuser');
@@ -302,23 +322,28 @@ function createRig() {
   }
   anchor('focuser', optics, [.41, -.25, .44]);
 
+  // Photo-matched train: drawtube -> OAG -> offset wheel -> ASI533.
+  // The guider projects from the OAG toward the viewer, opposite the wheel bulk.
   cylinder(optics, .2, .13, [1.28, 0, 0], materials.black, 'oag', 'x');
-  box(optics, [.13, .15, .16], [1.28, .19, 0], materials.black, 'oag');
-  cylinder(optics, .065, .29, [1.28, .37, 0], materials.black, 'oag');
+  box(optics, [.13, .16, .17], [1.28, 0, .19], materials.black, 'oag');
+  cylinder(optics, .085, .24, [1.28, 0, .34], materials.black, 'oag', 'z');
+  cylinder(optics, .115, .08, [1.28, 0, .47], materials.black, 'oag', 'z');
+  for (const x of [1.2, 1.36]) cylinder(optics, .027, .055, [x, .115, .29], materials.steel, 'oag');
   ring(optics, .195, .014, [1.22, 0, 0], materials.steel, 'oag');
-  anchor('oag', optics, [1.28, .19, .07]);
-  cylinder(optics, .16, .19, [1.28, .63, 0], materials.red, 'guide');
-  cylinder(optics, .18, .055, [1.28, .73, 0], materials.red, 'guide');
-  cylinder(optics, .152, .015, [1.28, .77, 0], materials.black, 'guide');
-  anchor('guide', optics, [1.28, .77, 0]);
+  anchor('oag', optics, [1.28, .12, .25]);
+  cylinder(optics, .16, .24, [1.28, 0, .63], materials.red, 'guide', 'z');
+  cylinder(optics, .175, .055, [1.28, 0, .77], materials.red, 'guide', 'z');
+  cylinder(optics, .15, .015, [1.28, 0, .808], materials.black, 'guide', 'z');
+  box(optics, [.09, .04, .03], [1.28, -.06, .831], materials.black, 'guide');
+  anchor('guide', optics, [1.28, .12, .77]);
 
-  cylinder(optics, .37, .115, [1.48, -.09, 0], materials.black, 'filters', 'x');
+  cylinder(optics, .40, .115, [1.48, .245, -.035], materials.black, 'filters', 'x');
   cylinder(optics, .16, .15, [1.48, 0, 0], materials.black, 'filters', 'x');
   for (let i = 0; i < 5; i++) {
     const angle = i / 5 * Math.PI * 2;
-    cylinder(optics, .017, .012, [1.545, -.09 + Math.cos(angle) * .3, Math.sin(angle) * .3], materials.steel, 'filters', 'x');
+    cylinder(optics, .017, .012, [1.545, .245 + Math.cos(angle) * .34, -.035 + Math.sin(angle) * .34], materials.steel, 'filters', 'x');
   }
-  anchor('filters', optics, [1.49, -.38, .1]);
+  anchor('filters', optics, [1.49, .59, -.035]);
   cylinder(optics, .155, .12, [1.62, 0, 0], materials.black, 'camera', 'x');
   cylinder(optics, .255, .38, [1.87, 0, 0], materials.red, 'camera', 'x');
   cylinder(optics, .26, .04, [2.08, 0, 0], materials.black, 'camera', 'x');
@@ -353,8 +378,8 @@ function createRig() {
   anchor('power', scene, [1.4, .2, .55]);
   cable(dataGroup, [[1.62, .93, 1.52], [1.3, .66, 1.2], [.95, .27, .7], [.8, .9, .2], [1.55, 2, .21], [1.98, 2.2, .18]], .018, materials.data, 'data');
   cable(dataGroup, [[1.55, 2, .21], [.5, 1.9, .35], [.35, 1.55, .25]], .014, materials.data, 'data');
-  cable(optics, [[2.06, -.06, .16], [1.84, -.3, .3], [1.53, -.35, .19]], .012, materials.data, 'data');
-  cable(optics, [[2.06, .03, .13], [1.8, .44, .13], [1.3, .81, .05]], .012, materials.data, 'data');
+  cable(optics, [[2.06, -.06, .16], [1.84, .23, .42], [1.53, .57, .12]], .012, materials.data, 'data');
+  cable(optics, [[2.06, .03, .13], [1.86, -.16, .68], [1.28, -.06, .845]], .012, materials.data, 'data');
   anchor('data', scene, [1.14, .64, .99]);
 
   optics.add(lightGroup);
@@ -362,7 +387,7 @@ function createRig() {
   const beam = mesh(lightGroup, new THREE.CylinderGeometry(.018, .25, 4.45, 40, 1, true), beamMaterial, [-.21, 0, 0]);
   beam.rotation.z = -Math.PI / 2;
   bar(lightGroup, [-2.48, 0, 0], [2.02, 0, 0], .008, new THREE.MeshBasicMaterial({ color: 0xaeeeff, depthTest: false }));
-  bar(lightGroup, [1.28, .08, 0], [1.28, .65, 0], .009, new THREE.MeshBasicMaterial({ color: 0x7dffbf, depthTest: false }));
+  bar(lightGroup, [1.28, 0, .08], [1.28, 0, .72], .009, new THREE.MeshBasicMaterial({ color: 0x7dffbf, depthTest: false }));
   lightGroup.visible = false;
 
   const markerElements = new Map();
