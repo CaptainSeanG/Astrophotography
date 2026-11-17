@@ -6,7 +6,7 @@ const full = byId('full');
 const photographs = galleryData.map(target => {
   const catalog = targetCatalog[target.id] ?? {};
   const aliases = [target.aliases, catalog.aliases].filter(Boolean).join(', ').split(', ');
-  return { ...target, ...catalog, ...(targetDetails[target.id] ?? {}), aliases: [...new Set(aliases)].join(', ') };
+  return { ...target, ...catalog, ...(targetDetails[target.id] ?? {}), libraryName: catalog.libraryName ?? target.name, aliases: [...new Set(aliases)].join(', ') };
 });
 const targets = new Map(photographs.map(target => [target.id, target]));
 const asset = (target, variant) => target.images?.[variant] ?? `images/${target.id}-${variant}.webp`;
@@ -52,6 +52,7 @@ function render() {
   const type = byId('type').value;
   const order = byId('sort').value;
   const compare = {
+    library: (a, b) => a.libraryName.localeCompare(b.libraryName, 'en-US'),
     name: (a, b) => a.name.localeCompare(b.name),
     recent: (a, b) => Date.parse(b.finished) - Date.parse(a.finished),
     hours: (a, b) => (b.integrationSeconds ?? -1) - (a.integrationSeconds ?? -1)
