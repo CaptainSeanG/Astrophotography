@@ -32,7 +32,7 @@ h1 em{color:#c3dcfb;font-weight:400}
   content:"";position:fixed;z-index:-1;inset:0;pointer-events:none;
   background:
     linear-gradient(90deg,#09111c82,#0b10184d 52%,#09111c82),
-    url("design/crab-starfield.webp") center / cover no-repeat;
+    url("design/milky-way-starfield.webp") center / cover no-repeat;
   opacity:.54;
 }
 .collection{padding:54px 0 70px}
