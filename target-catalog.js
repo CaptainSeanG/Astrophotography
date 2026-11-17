@@ -1,5 +1,6 @@
 // Object types are keyed by the LIGHT Library’s canonical target IDs.
 const targetCatalog = {
+  "ngc2244": {"subtype":"Open cluster in an emission nebula","type":"Open cluster","tags":["Nebula","Emission nebula"],"aliases":"NGC 2244, NGC 2237","name":"Rosette Nebula"},
   "ngc2359": {"subtype":"Emission nebula","aliases":"NGC 2359, Thor's Helmet","type":"Nebula","name":"Thor's Helmet"},
   "ic1396a": {"type":"Nebula","subtype":"Dark nebula","name":"Elephant’s Trunk Nebula","aliases":"IC 1396A"},
   "ic1805": {"type":"Nebula","subtype":"Emission nebula","name":"Heart Nebula"},
