@@ -274,6 +274,23 @@ const galleryData = [
     "capturedHours": 2.77
   },
   {
+    "id": "m27",
+    "name": "M 27 Dumbbell Nebula",
+    "aliases": "M27",
+    "finished": "2021-11-13T16:06:52-07:00",
+    "width": 6016,
+    "height": 6016,
+    "images": {
+      "thumb": "images/m27-0aff4a3a75aebe6a0eb5-thumb.webp",
+      "preview": "images/m27-0aff4a3a75aebe6a0eb5-preview.webp",
+      "full": "images/m27-0aff4a3a75aebe6a0eb5-full.webp"
+    },
+    "sha256": "0aff4a3a75aebe6a0eb51e8e4d71d9a46aa344c6697e899b8de9b65137d74e57",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 3.7
+  },
+  {
     "id": "m33",
     "name": "M 33 Triangulum Galaxy",
     "aliases": "M 33 Triangulum Galaxy, M33, Triangulum Pinwheel",
@@ -826,20 +843,20 @@ const galleryData = [
     "capturedHours": 2.75
   },
   {
-    "id": "m27",
-    "name": "M 27 Dumbbell Nebula",
-    "aliases": "M27",
-    "finished": "2021-11-13T23:06:52.0000000+00:00",
-    "width": 6016,
-    "height": 6016,
+    "id": "ngc1624",
+    "name": "NGC 1624",
+    "aliases": "NGC1624",
+    "finished": "2026-11-17T02:01:59.0553593+00:00",
+    "width": 1800,
+    "height": 1800,
     "images": {
-      "thumb": "images/m27-0aff4a3a75aebe6a0eb5-thumb.webp",
-      "preview": "images/m27-0aff4a3a75aebe6a0eb5-preview.webp",
-      "full": "images/m27-0aff4a3a75aebe6a0eb5-full.webp"
+      "thumb": "images/ngc1624-57689f464f816095c68b-thumb.webp",
+      "preview": "images/ngc1624-57689f464f816095c68b-preview.webp",
+      "full": "images/ngc1624-57689f464f816095c68b-full.webp"
     },
-    "sha256": "0aff4a3a75aebe6a0eb51e8e4d71d9a46aa344c6697e899b8de9b65137d74e57",
+    "sha256": "57689f464f816095c68b7294b2367fd3a9c0fdcb8e6f20c4f6d645b714573158",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 3.7
+    "capturedHours": 0.21
   }
 ];
