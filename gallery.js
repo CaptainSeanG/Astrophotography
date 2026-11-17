@@ -37,7 +37,7 @@ const typeFilters = [
   ['Emission nebula', 'Emission nebulae'], ['Planetary nebula', 'Planetary nebulae'],
   ['Reflection nebula', 'Reflection nebulae'], ['Dark nebula', 'Dark nebulae'],
   ['Supernova remnant', 'Supernova remnants'], ['Globular cluster', 'Globular clusters'],
-  ['Open cluster', 'Open clusters']
+  ['Open cluster', 'Open clusters'], ['Moon', 'Moon'], ['Comet', 'Comets'], ['Photograph', 'Other photographs']
 ];
 for (const [value, label] of typeFilters) {
   const count = photographs.filter(target => objectTypes(target).has(value)).length;
@@ -61,7 +61,8 @@ function render() {
     (!type || objectTypes(target).has(type)) && normalize(`${target.name} ${target.aliases} ${target.id}`).includes(query)
   ).sort(compare[order]);
   byId('empty').hidden = matches.length > 0;
-  byId('photographs').replaceChildren(...matches.map(target => {
+  byId('archive-collection').hidden = !matches.some(target => target.collection === 'archive');
+  const cards = matches.map(target => {
     const card = element('button', '', 'card');
     card.type = 'button';
     card.dataset.target = target.id;
@@ -74,7 +75,9 @@ function render() {
       element('span', target.subtype, 'meta'));
     card.append(image, copy);
     return card;
-  }));
+  });
+  byId('photographs').replaceChildren(...cards.filter(card => targets.get(card.dataset.target).collection !== 'archive'));
+  byId('archive-photographs').replaceChildren(...cards.filter(card => targets.get(card.dataset.target).collection === 'archive'));
 }
 
 function openDetail(target) {
@@ -98,7 +101,8 @@ function openDetail(target) {
     ['Object type', target.subtype ?? target.type],
     ['Constellation', target.constellation],
     ['Apparent magnitude', target.magnitude ?? 'No verified integrated value'],
-    ['Approx. distance', target.distance ? `${target.distance} light-years` : 'Not verified'],
+    ['Approx. distance', target.distanceText ?? (target.distance ? `${target.distance} light-years` : 'Not verified')],
+    ['Equipment', target.equipment],
     ['Integrated exposure', target.integrationSeconds === null ? 'Unverified' : hours(target.integrationSeconds)],
     ['Captured exposure¹', typeof target.capturedHours === 'number' && `${target.capturedHours.toFixed(2)} h`],
     ...target.filters.map(group => [group.filter, `${hours(group.seconds)} · ${group.frames} frames`]),

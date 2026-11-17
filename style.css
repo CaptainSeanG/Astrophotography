@@ -41,6 +41,8 @@ h2{font-size:clamp(2.2rem,4.7vw,3.65rem);letter-spacing:-.04em}
 .controls label{display:grid;gap:7px;color:var(--muted);font-size:.85rem}
 input,select{width:100%;min-width:0;background:#101823;color:var(--text);border:1px solid var(--line);border-radius:4px;padding:11px 12px}
 .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.archive-collection{border-top:1px solid var(--line);margin-top:54px;padding-top:38px}
+.archive-collection h2{font-size:clamp(1.8rem,3vw,2.6rem);margin-bottom:28px}
 .card{text-align:left;padding:0;overflow:hidden;background:var(--panel);border:1px solid var(--line);border-radius:6px}
 .card:hover{border-color:#7496bd}
 .card img{display:block;width:100%;aspect-ratio:1.3;object-fit:cover;background:#06090d}

@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Explore Sean Gallagher’s photographs of galaxies, nebulae, and the night sky.">
   <title>Sean Gallagher Astrophotography</title>
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
   <script defer src="gallery-data.js"></script>
   <script defer src="target-catalog.js?v=2"></script>
   <script defer src="target-details.js"></script>
-  <script defer src="gallery.js?v=2"></script>
+  <script defer src="gallery.js?v=4"></script>
 </head>
 <body>
   <header class="top"><div class="wrap nav">
@@ -36,6 +36,10 @@
       </div>
       <p id="empty" role="status" hidden>No photographs match your search.</p>
       <div id="photographs" class="grid"></div>
+      <section id="archive-collection" class="archive-collection" aria-labelledby="archive-title" hidden>
+        <h2 id="archive-title">More from my sky</h2>
+        <div id="archive-photographs" class="grid"></div>
+      </section>
       </div>
     </section>
     <section id="about" class="about"><div class="wrap about-inner">
