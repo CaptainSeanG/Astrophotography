@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Sean Gallagher’s ES127 astrophotography rig in 3D and discover how tracking, guiding, stacking and stretching turn starlight into photographs.">
+  <title>Equipment & Process · Sean Gallagher Astrophotography</title>
+  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="equipment.css">
+  <script type="importmap">{"imports":{"three":"./equipment-assets/vendor/three.module.js","three/addons/controls/OrbitControls.js":"./equipment-assets/vendor/OrbitControls.js"}}</script>
+  <script type="module" src="equipment.js"></script>
+</head>
+<body class="equipment-page">
+  <header class="top"><div class="wrap nav">
+    <a class="brand" href="index.html#home"><span aria-hidden="true">✦</span> Sean Gallagher <small>Astrophotography</small></a>
+    <nav aria-label="Main navigation"><a href="index.html#home">Home</a><a href="index.html#gallery">Gallery</a><a href="equipment.html" aria-current="page">Equipment</a><a href="index.html#about">About</a></nav>
+  </div></header>
+  <main>
+    <section class="wrap equipment-intro">
+      <p class="eyebrow">Equipment & process</p>
+      <h1>The equipment<br><em>behind the images.</em></h1>
+      <p class="equipment-lead">Explore my ES127 imaging setup, then see how individual exposures become a finished photograph.</p>
+      <a class="text-link" href="#making-an-image">Follow the light through the process ↓</a>
+    </section>
+
+    <section class="wrap rig-section" aria-labelledby="rig-title">
+      <div class="section-heading"><h2 id="rig-title">Explore the imaging rig</h2><p>Drag to orbit · scroll or pinch to zoom · select a component</p></div>
+      <div class="rig-stage" id="rig-stage">
+        <img id="rig-poster" class="rig-poster" src="equipment-assets/rig-poster.webp" alt="Illustrated ES127 telescope on an EQ6-R Pro mount, with an imaging camera, off-axis guider, filter wheel and connected laptop." hidden>
+        <canvas id="rig-canvas" tabindex="0" aria-label="Interactive 3D telescope. Drag to orbit and use the labeled component buttons for explanations."></canvas>
+        <canvas id="rig-leaders" aria-hidden="true"></canvas>
+        <div id="rig-markers" aria-label="Telescope components"></div>
+        <div id="rig-tooltip" class="rig-tooltip" role="tooltip" hidden></div>
+        <p class="rig-loading" id="rig-loading" role="status">Preparing the 3D rig…</p>
+        <div class="rig-controls">
+          <button type="button" id="reset-view">Reset view</button>
+          <button type="button" id="show-light" aria-pressed="false">Light path</button>
+          <button type="button" id="show-cables" aria-pressed="true">Connections</button>
+        </div>
+        <div class="cable-key" aria-label="Connection colors"><span><i class="data-dot"></i>USB data</span><span><i class="power-dot"></i>Power</span></div>
+      </div>
+      <p class="model-caption" id="model-caption">An interactive illustration of my current setup. Proportions, adapter spacing and cable routing are simplified.</p>
+      <div id="component-list" class="component-list" aria-label="Explore each component"></div>
+      <noscript><p>The setup includes an Explore Scientific ES127 refractor, Sky-Watcher EQ6-R Pro mount, ZWO ASI533MC Pro imaging camera, ASI290 guide camera, ZWO OAG, five-position ZWO filter wheel and Deep Sky Dad focuser. Enable JavaScript to explore the model.</p></noscript>
+    </section>
+
+    <section class="wrap real-rig-section" aria-labelledby="real-rig-title">
+      <div class="section-heading"><h2 id="real-rig-title">On the real telescope</h2><p>My equipment and installation photographs.</p></div>
+      <div class="rig-photo-grid">
+        <figure><button type="button" class="rig-photo" data-photo="equipment-assets/es127-earlier-rig.webp" data-caption="The ES127 on the EQ6-R Pro in an earlier configuration, before the filter wheel and OAG were added."><img src="equipment-assets/es127-earlier-rig.webp" loading="lazy" alt="Sean’s white ES127 refractor on its EQ6-R Pro mount and tripod in an earlier configuration."></button><figcaption>ES127 & EQ6-R Pro<br><span>Earlier configuration</span></figcaption></figure>
+        <figure><button type="button" class="rig-photo" data-photo="equipment-assets/af3-belt-drive.webp" data-caption="The Deep Sky Dad focuser’s motor and exposed drive belt on the ES127."><img src="equipment-assets/af3-belt-drive.webp" loading="lazy" alt="Close-up of the Deep Sky Dad focuser motor and belt attached to the telescope’s focus knob."></button><figcaption>Deep Sky Dad focuser<br><span>Motor, pulley and belt</span></figcaption></figure>
+        <figure><button type="button" class="rig-photo" data-photo="equipment-assets/oag-filter-wheel-installation.webp" data-caption="The off-axis guider, guide camera and five-position filter wheel during installation behind the telescope."><img src="equipment-assets/oag-filter-wheel-installation.webp" loading="lazy" alt="Side view of the off-axis guider, guide camera, ZWO filter wheel and main imaging camera during installation."></button><figcaption>OAG & filter wheel<br><span>Imaging-train installation</span></figcaption></figure>
+        <figure><button type="button" class="rig-photo" data-photo="equipment-assets/asi533-connections.webp" data-caption="The rear of the ASI533MC Pro, showing the cooling fan, 12 V power input and USB connections."><img src="equipment-assets/asi533-connections.webp" loading="lazy" alt="Rear of the red ZWO ASI533MC Pro imaging camera with cooling fan and connected power and USB cables."></button><figcaption>ASI533MC Pro connections<br><span>Power, USB and cooling</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="software-section" aria-labelledby="software-title">
+      <div class="wrap">
+        <div class="section-heading"><h2 id="software-title">At the laptop</h2><p>Point, focus, guide, capture.</p></div>
+        <div class="software-layout">
+          <figure class="nina-figure" id="nina-figure" hidden>
+            <button type="button" id="open-nina" aria-label="Enlarge the N.I.N.A. imaging workspace"><img id="nina-screenshot" alt="N.I.N.A. imaging workspace showing the captured image and equipment controls."><span>Explore the imaging screen ↗</span></button>
+            <figcaption id="nina-caption"></figcaption>
+          </figure>
+          <div class="software-notes">
+            <article><h3>N.I.N.A.</h3><p>The observing workspace brings the latest exposure, camera cooling, focus controls, target position and guiding information together. A screen stretch reveals faint detail while the captured data stays linear.</p><a class="text-link" href="https://www.nighttime-imaging.eu/docs/master/site/tabs/imaging/" target="_blank" rel="noopener noreferrer">N.I.N.A. imaging guide ↗</a></article>
+            <article><h3>PHD2 & ASTAP</h3><p>PHD2 measures guide-star motion and sends small corrections to the mount. ASTAP plate-solves an image by matching its stars to a catalog, identifying where the telescope is pointing.</p><p class="source-links"><a href="https://openphdguiding.org/man/Basic_use.htm" target="_blank" rel="noopener noreferrer">PHD2</a><a href="https://www.hnsky.org/astap.htm" target="_blank" rel="noopener noreferrer">ASTAP</a></p></article>
+            <article><h3>PixInsight</h3><p>Calibration, star alignment and integration build a clean master image. Background correction, color work, noise reduction and a carefully controlled stretch bring out the recorded structure.</p><a class="text-link" href="https://pixinsight.com/" target="_blank" rel="noopener noreferrer">PixInsight ↗</a></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap process-section" id="making-an-image" aria-labelledby="process-title">
+      <div class="section-heading"><h2 id="process-title">From starlight to a photograph</h2><p>Many exposures. One carefully built image.</p></div>
+      <div class="process-explanation">
+        <article><h3>Collect the light</h3><p>The mount follows the sky while the main camera records a series of exposures. Guiding keeps stars steady, and repeated focus checks help preserve fine detail over a changing night.</p></article>
+        <article><h3>Calibrate & align</h3><p>Suitable dark and flat frames help correct sensor patterns and uneven illumination. The exposures are then aligned on their stars so the same features fall on the same pixels.</p></article>
+        <article><h3>Stack the exposures</h3><p>Averaging aligned frames reinforces the shared signal while random noise averages down. Rejection methods can reduce transient trails and outlier pixels.</p></article>
+        <article><h3>Stretch & finish</h3><p>Most nebular detail starts close to black in a linear image. A nonlinear stretch lifts faint values into a visible range. Careful color and contrast adjustments help reveal structure while preserving bright areas.</p></article>
+      </div>
+
+      <div class="learning-demos">
+        <article class="demo-panel">
+          <h3>Why stack?</h3>
+          <div class="stack-images"><figure><canvas id="single-demo" width="360" height="220" aria-label="Simulated single exposure with random noise"></canvas><figcaption>Single exposure</figcaption></figure><figure><canvas id="stack-demo" width="360" height="220" aria-label="Simulated average of multiple exposures"></canvas><figcaption id="stack-label">16 aligned exposures</figcaption></figure></div>
+          <label class="demo-control" for="stack-count">Frames stacked <select id="stack-count"><option value="1">1</option><option value="4">4</option><option value="16" selected>16</option><option value="64">64</option></select></label>
+          <p id="stack-readout" class="demo-readout" aria-live="polite"></p>
+          <p class="demo-note">Simulation with normalized averages and a fixed stretch. For comparable exposures with independent random noise, signal-to-noise improves roughly with the square root of the frame count.</p>
+        </article>
+        <article class="demo-panel">
+          <h3>What does a stretch reveal?</h3>
+          <canvas id="stretch-demo" width="720" height="440" aria-label="Simulated faint nebula with adjustable display stretch"></canvas>
+          <label class="demo-control" for="stretch-amount">Reveal faint light <input id="stretch-amount" type="range" min="0" max="100" value="0"></label>
+          <p id="stretch-readout" class="demo-readout" aria-live="polite">Linear view</p>
+          <p class="demo-note">The recorded signal is the same. This simulation changes the brightness mapping so faint structure becomes easier to see.</p>
+        </article>
+      </div>
+      <p class="process-sources">Read more about <a href="https://www.astropy.org/ccd-reduction-and-photometry-guide/v/2.0.0/notebooks/01-06-Image-combination.html" target="_blank" rel="noopener noreferrer">stacking and calibration</a> and <a href="https://docs.astropy.org/en/stable/visualization/normalization.html" target="_blank" rel="noopener noreferrer">image stretching</a>.</p>
+    </section>
+    <section class="wrap equipment-return"><p>See where the light ends up.</p><a class="primary" href="index.html#gallery">Back to the photographs <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="wrap"><span>© Sean Gallagher — All Rights Reserved.</span>
+    <a class="visit-counter" href="https://hitscounter.dev/history?url=https%3A%2F%2Fcaptainseang.github.io%2FAstrophotography%2F" target="_blank" rel="noopener noreferrer" title="Page visits today / total, counting since November 17, 2026. Open visit statistics.">
+      <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fcaptainseang.github.io%2FAstrophotography%2F&amp;label=Visits&amp;icon=people&amp;color=%232f6e96" alt="Page visits today / total — open statistics" referrerpolicy="no-referrer" height="20" decoding="async">
+    </a>
+  </footer>
+
+  <dialog id="component-dialog" class="equipment-dialog" aria-labelledby="component-title">
+    <button class="close" id="close-component" type="button" aria-label="Close component explanation">×</button>
+    <p class="eyebrow" id="component-role"></p><h2 id="component-title"></h2><p id="component-description"></p><p id="component-detail" class="component-detail"></p><figure id="component-photo" hidden><img id="component-photo-image" alt=""><figcaption id="component-photo-caption"></figcaption></figure><a id="component-source" class="text-link" target="_blank" rel="noopener noreferrer">Learn more ↗</a>
+  </dialog>
+  <dialog id="nina-dialog" class="nina-dialog" aria-label="N.I.N.A. imaging workspace"><button class="close" id="close-nina" type="button" aria-label="Close N.I.N.A. screenshot">×</button><img id="nina-large" alt="Enlarged N.I.N.A. imaging workspace."><p id="nina-large-caption"></p></dialog>
+  <dialog id="rig-photo-dialog" class="rig-photo-dialog" aria-label="Equipment photograph"><button class="close" id="close-rig-photo" type="button" aria-label="Close equipment photograph">×</button><img id="rig-photo-large" alt=""><p id="rig-photo-caption"></p></dialog>
+</body>
+</html>
