@@ -1,4 +1,4 @@
 {
-  "ninaImage": null,
-  "ninaCaption": ""
+  "ninaImage": "equipment-assets/nina-imaging-workspace.webp",
+  "ninaCaption": "My N.I.N.A. imaging workspace during a Caldwell 11 sequence. The central preview shows a captured exposure; the surrounding panels track image history, camera settings, focus, guiding and sequence progress. This is an acquisition view before stacking and final processing."
 }
