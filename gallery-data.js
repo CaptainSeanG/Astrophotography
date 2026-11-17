@@ -603,6 +603,23 @@ const galleryData = [
     "capturedHours": 6
   },
   {
+    "id": "ngc3031",
+    "name": "Bode's Galaxy",
+    "aliases": "Bode's Galaxy, M81, Messier 81, NGC 3031, NGC3031",
+    "finished": "2026-11-16T20:29:20.1690391-07:00",
+    "width": 2959,
+    "height": 2969,
+    "images": {
+      "thumb": "images/ngc3031-a627282eefac25aafaab-thumb.webp",
+      "preview": "images/ngc3031-a627282eefac25aafaab-preview.webp",
+      "full": "images/ngc3031-a627282eefac25aafaab-full.webp"
+    },
+    "sha256": "a627282eefac25aafaab4213d97abf25820f65b3aa4b4b2d50c6998c479525ba",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 26.58
+  },
+  {
     "id": "ngc3034",
     "name": "M 82 Cigar Galaxy",
     "aliases": "Cigar Galaxy, M82, Messier 82, NGC 3034, NGC3034",
@@ -831,20 +848,20 @@ const galleryData = [
     "capturedHours": 2.75
   },
   {
-    "id": "ngc3031",
-    "name": "Bode's Galaxy",
-    "aliases": "Bode's Galaxy, M81, Messier 81, NGC 3031, NGC3031",
-    "finished": "2026-11-17T03:29:20.1690391+00:00",
-    "width": 2959,
-    "height": 2969,
+    "id": "ngc2359",
+    "name": "NGC 2359 Thor's Helmet",
+    "aliases": "NGC 2359, NGC 2359 Thors Helmet, NGC2359, Thor's Helmet",
+    "finished": "2021-02-23T17:16:30.0000000+00:00",
+    "width": 5158,
+    "height": 5158,
     "images": {
-      "thumb": "images/ngc3031-a627282eefac25aafaab-thumb.webp",
-      "preview": "images/ngc3031-a627282eefac25aafaab-preview.webp",
-      "full": "images/ngc3031-a627282eefac25aafaab-full.webp"
+      "thumb": "images/ngc2359-8d438424d92fa511ec4d-thumb.webp",
+      "preview": "images/ngc2359-8d438424d92fa511ec4d-preview.webp",
+      "full": "images/ngc2359-8d438424d92fa511ec4d-full.webp"
     },
-    "sha256": "a627282eefac25aafaab4213d97abf25820f65b3aa4b4b2d50c6998c479525ba",
+    "sha256": "8d438424d92fa511ec4d159ef782ca4b16e83ca07ccd86da26133f52b8de6050",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 26.58
+    "capturedHours": 25
   }
 ];
