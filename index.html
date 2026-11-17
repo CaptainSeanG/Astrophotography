@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <script defer src="gallery-data.js"></script>
   <script defer src="target-catalog.js"></script>
+  <script defer src="target-details.js"></script>
   <script defer src="gallery.js"></script>
 </head>
 <body>
@@ -51,7 +52,9 @@
         <p id="detail-alias" class="alias"></p><h2 id="detail-title"></h2><p id="description"></p>
         <dl id="facts" aria-describedby="capture-note"></dl>
         <p id="capture-note">¹ Total captured in the LIGHT Library for this target.</p>
+        <p id="image-note" hidden></p>
         <a id="source" target="_blank" rel="noopener">Read about this target ↗</a>
+        <a id="magnitude-source" target="_blank" rel="noopener" hidden>Magnitude source ↗</a>
       </section>
     </div>
   </dialog>

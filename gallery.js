@@ -6,7 +6,7 @@ const full = byId('full');
 const photographs = galleryData.map(target => {
   const catalog = targetCatalog[target.id] ?? {};
   const aliases = [target.aliases, catalog.aliases].filter(Boolean).join(', ').split(', ');
-  return { ...target, ...catalog, aliases: [...new Set(aliases)].join(', ') };
+  return { ...target, ...catalog, ...(targetDetails[target.id] ?? {}), aliases: [...new Set(aliases)].join(', ') };
 });
 const targets = new Map(photographs.map(target => [target.id, target]));
 const asset = (target, variant) => target.images?.[variant] ?? `images/${target.id}-${variant}.webp`;
@@ -88,10 +88,16 @@ function openDetail(target) {
   const source = byId('source');
   source.hidden = !target.source;
   if (target.source) source.href = target.source;
+  const magnitudeSource = byId('magnitude-source');
+  magnitudeSource.hidden = !target.magnitudeSource;
+  if (target.magnitudeSource) magnitudeSource.href = target.magnitudeSource;
+  byId('image-note').hidden = !target.imageNote;
+  byId('image-note').textContent = target.imageNote ?? '';
   const rows = [
     ['Object type', target.subtype ?? target.type],
     ['Constellation', target.constellation],
-    ['Approx. distance', target.distance && `${target.distance} light-years`],
+    ['Apparent magnitude', target.magnitude ?? 'No verified integrated value'],
+    ['Approx. distance', target.distance ? `${target.distance} light-years` : 'Not verified'],
     ['Integrated exposure', target.integrationSeconds === null ? 'Unverified' : hours(target.integrationSeconds)],
     ['Captured exposure¹', typeof target.capturedHours === 'number' && `${target.capturedHours.toFixed(2)} h`],
     ...target.filters.map(group => [group.filter, `${hours(group.seconds)} · ${group.frames} frames`]),
