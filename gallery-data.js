@@ -621,20 +621,20 @@ const galleryData = [
   },
   {
     "id": "ngc253",
-    "name": "NGC 253",
-    "aliases": "NGC253",
-    "finished": "2026-11-09T10:58:03.3470234-07:00",
+    "name": "NGC 253 - Sculptor Galaxy",
+    "aliases": "NGC 253, NGC253, Sculptor Galaxy",
+    "finished": "2026-11-18T02:55:48.972248+00:00",
     "width": 3001,
     "height": 3002,
     "images": {
-      "thumb": "images/ngc253-ddcedfa5a854654a5132-thumb.webp",
-      "preview": "images/ngc253-ddcedfa5a854654a5132-preview.webp",
-      "full": "images/ngc253-ddcedfa5a854654a5132-full.webp"
+      "thumb": "images/ngc253-6704fa74d8024388fbc4-thumb.webp",
+      "preview": "images/ngc253-6704fa74d8024388fbc4-preview.webp",
+      "full": "images/ngc253-6704fa74d8024388fbc4-full.webp"
     },
-    "sha256": "ddcedfa5a854654a51323b306060cec5ee74bb4fee7d76bb7456bc0a583db5e0",
+    "sha256": "6704fa74d8024388fbc4bb2c17cc45a59790cda25c7540661feb261dba40c4eb",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 6
+    "capturedHours": 7.83
   },
   {
     "id": "ngc3031",
