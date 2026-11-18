@@ -20,7 +20,9 @@ const galleryData = [
         "frames": 73
       }
     ],
-    "capturedHours": 7
+    "capturedHours": 7,
+    "type": "Nebula",
+    "subtype": "Dark nebula"
   },
   {
     "id": "ic1805",
@@ -43,14 +45,16 @@ const galleryData = [
         "frames": 18
       }
     ],
-    "capturedHours": 1.5
+    "capturedHours": 1.5,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ic1848",
     "name": "Soul Nebula",
     "aliases": "IC 1848, W5",
     "type": "Nebula",
-    "subtype": "Star-forming region",
+    "subtype": "Emission nebula",
     "constellation": "Cassiopeia",
     "distance": "6,500",
     "description": "Young stars are shaping this cloud of gas and dust near the Heart Nebula. Their winds carve cavities into material that can still form new stars.",
@@ -83,7 +87,13 @@ const galleryData = [
     "sha256": "dad083ccc01f4f8ddbb9fdd418e3363957fc128489849dcea5462245b53dd885",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 2.83
+    "capturedHours": 2.83,
+    "type": "Nebula",
+    "subtype": "Emission and reflection nebula",
+    "tags": [
+      "Emission nebula",
+      "Reflection nebula"
+    ]
   },
   {
     "id": "ic410",
@@ -106,7 +116,9 @@ const galleryData = [
         "frames": 17
       }
     ],
-    "capturedHours": 14.35
+    "capturedHours": 14.35,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ic417",
@@ -123,7 +135,9 @@ const galleryData = [
     "sha256": "9a7a230e0e582de0430914fe1ab1b52cbb3d41f0b657d6bdae06cda02f4cc81d",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 2.08
+    "capturedHours": 2.08,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ic434-b33",
@@ -140,7 +154,13 @@ const galleryData = [
     "sha256": "1ff3331e01ab35ccc6137fc54a5c584d70ead0f656e0f978fac7df1c6f326dbc",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 49.58
+    "capturedHours": 49.58,
+    "type": "Nebula",
+    "subtype": "Dark nebula in an emission field",
+    "tags": [
+      "Dark nebula",
+      "Emission nebula"
+    ]
   },
   {
     "id": "ic443",
@@ -157,7 +177,9 @@ const galleryData = [
     "sha256": "e4e757a2215396b641804cfd74bb38fe2e4e0df45992aa99b6bff9c0a263ff92",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 7.42
+    "capturedHours": 7.42,
+    "type": "Nebula",
+    "subtype": "Supernova remnant"
   },
   {
     "id": "ic5070",
@@ -174,7 +196,9 @@ const galleryData = [
     "sha256": "fb3211c06d6c585df0dfb14e5138ce8a40c0a733d170cbf169b365b3eac2a270",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 2.49
+    "capturedHours": 2.49,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ic5146",
@@ -191,7 +215,13 @@ const galleryData = [
     "sha256": "b3d10c04875dcbdc5a40c8979940dc8be6846a1d9c84c6fe15a73f6bc10b821d",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 0.67
+    "capturedHours": 0.67,
+    "type": "Nebula",
+    "subtype": "Emission and reflection nebula",
+    "tags": [
+      "Emission nebula",
+      "Reflection nebula"
+    ]
   },
   {
     "id": "m101",
@@ -208,7 +238,9 @@ const galleryData = [
     "sha256": "53cda7e06b4dec0801f03ef776c761fa267c8a190a0f53788d9e724c83e004d8",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 5.42
+    "capturedHours": 5.42,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "m104",
@@ -271,7 +303,9 @@ const galleryData = [
     "sha256": "4b10fe6b72b2717c896a998e7977dcaaef77bb7a96b0caf498e189098cc22fe8",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 2.77
+    "capturedHours": 2.77,
+    "type": "Globular cluster",
+    "subtype": "Globular cluster"
   },
   {
     "id": "m27",
@@ -288,7 +322,9 @@ const galleryData = [
     "sha256": "0aff4a3a75aebe6a0eb51e8e4d71d9a46aa344c6697e899b8de9b65137d74e57",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 3.7
+    "capturedHours": 3.7,
+    "type": "Nebula",
+    "subtype": "Planetary nebula"
   },
   {
     "id": "m33",
@@ -305,7 +341,9 @@ const galleryData = [
     "sha256": "e454d6e1404839407b51036bd7a707dabc5700638ccda84e607793693a544395",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 3.9
+    "capturedHours": 3.9,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "m65",
@@ -322,7 +360,9 @@ const galleryData = [
     "sha256": "d41de1ecfc14b534dd06429d8c6c62748e2072523d45d012f8c644f033738504",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 3.08
+    "capturedHours": 3.08,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "m74",
@@ -339,7 +379,9 @@ const galleryData = [
     "sha256": "a1217f6fcb47eac0870e736ed5aba9a8cae02e065c0c1d54ddb48c2f9b53ec08",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 11.5
+    "capturedHours": 11.5,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "m76",
@@ -356,7 +398,9 @@ const galleryData = [
     "sha256": "ef9aac0b9a3cda36b875784057bf373209ddd4ed02bd43586ff183bd8deac19c",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 11
+    "capturedHours": 11,
+    "type": "Nebula",
+    "subtype": "Planetary nebula"
   },
   {
     "id": "m78",
@@ -373,7 +417,9 @@ const galleryData = [
     "sha256": "64d763b50dac35c71b98a936a379d83ec1b455f3bdbe43ad5881754c09a90346",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 3.33
+    "capturedHours": 3.33,
+    "type": "Nebula",
+    "subtype": "Reflection nebula"
   },
   {
     "id": "m97",
@@ -390,7 +436,9 @@ const galleryData = [
     "sha256": "cd121feef28329019d58d832366e22f4b9d33f8300153621c973168e16979f89",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 2.17
+    "capturedHours": 2.17,
+    "type": "Nebula",
+    "subtype": "Planetary nebula"
   },
   {
     "id": "melotte15",
@@ -413,7 +461,13 @@ const galleryData = [
         "frames": 63
       }
     ],
-    "capturedHours": 5.25
+    "capturedHours": 5.25,
+    "type": "Open cluster",
+    "subtype": "Open cluster in an emission nebula",
+    "tags": [
+      "Nebula",
+      "Emission nebula"
+    ]
   },
   {
     "id": "ngc1491",
@@ -430,7 +484,9 @@ const galleryData = [
     "sha256": "7a990ec2d9be6475c3ae7654d65ebdcb284f01f4c925dc230b96efa64e80f9fc",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 16.38
+    "capturedHours": 16.38,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ngc1624",
@@ -447,7 +503,13 @@ const galleryData = [
     "sha256": "57689f464f816095c68b7294b2367fd3a9c0fdcb8e6f20c4f6d645b714573158",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 0.21
+    "capturedHours": 0.21,
+    "type": "Open cluster",
+    "subtype": "Open cluster in an emission nebula",
+    "tags": [
+      "Nebula",
+      "Emission nebula"
+    ]
   },
   {
     "id": "ngc1952",
@@ -498,7 +560,9 @@ const galleryData = [
     "sha256": "8dc405dcd849a40053541efb1d4d10c070f083b3c98208ac7d44a2449ffea6ac",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 0.87
+    "capturedHours": 0.87,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ngc2174",
@@ -515,7 +579,9 @@ const galleryData = [
     "sha256": "f483edf4a006a98e2d515f1d093859004bd20796ecba656760759b06d82d895c",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 15.05
+    "capturedHours": 15.05,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ngc224",
@@ -532,7 +598,9 @@ const galleryData = [
     "sha256": "3713634167eda8061dd7167f19600a113ecf6a1fc9d1e692376e71d268c5e01c",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 0.14
+    "capturedHours": 0.14,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "ngc2244",
@@ -551,11 +619,15 @@ const galleryData = [
     "filters": [],
     "capturedHours": 2.75,
     "distance": "5,200",
-    "type": "Nebula",
-    "subtype": "Emission nebula",
+    "type": "Open cluster",
+    "subtype": "Open cluster in an emission nebula",
     "source": "https://science.nasa.gov/asset/hubble/rosette-nebula/",
     "description": "The Rosette is a vast stellar nursery surrounding the young star cluster NGC 2244. Radiation and winds from its massive stars carve the central cavity and illuminate the surrounding gas. Dense knots and pillars within the cloud are places where new stars can form.",
-    "constellation": "Monoceros"
+    "constellation": "Monoceros",
+    "tags": [
+      "Nebula",
+      "Emission nebula"
+    ]
   },
   {
     "id": "ngc2264",
@@ -572,7 +644,13 @@ const galleryData = [
     "sha256": "b93256df5aad9f5d6a91a5c7bf006897b4e9009e9563420cc98803fac657b51a",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 0.25
+    "capturedHours": 0.25,
+    "type": "Open cluster",
+    "subtype": "Open cluster in an emission nebula",
+    "tags": [
+      "Nebula",
+      "Emission nebula"
+    ]
   },
   {
     "id": "ngc2359",
@@ -589,7 +667,9 @@ const galleryData = [
     "sha256": "8d438424d92fa511ec4d159ef782ca4b16e83ca07ccd86da26133f52b8de6050",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 25
+    "capturedHours": 25,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ngc2403",
@@ -606,7 +686,9 @@ const galleryData = [
     "sha256": "eb368f95864c59047c64ea5b29896220126ce31dace08ccf576fa00d013f0e0a",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 27.92
+    "capturedHours": 27.92,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "ngc2419",
@@ -623,7 +705,9 @@ const galleryData = [
     "sha256": "05826cf5ce32f9844f17f23ff4cf91acb664a37329675b8fea2f87386ab25521",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 1.83
+    "capturedHours": 1.83,
+    "type": "Globular cluster",
+    "subtype": "Globular cluster"
   },
   {
     "id": "ngc253",
@@ -640,7 +724,9 @@ const galleryData = [
     "sha256": "6704fa74d8024388fbc4bb2c17cc45a59790cda25c7540661feb261dba40c4eb",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 7.83
+    "capturedHours": 7.83,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "ngc3031",
@@ -657,7 +743,9 @@ const galleryData = [
     "sha256": "a627282eefac25aafaab4213d97abf25820f65b3aa4b4b2d50c6998c479525ba",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 26.58
+    "capturedHours": 26.58,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "ngc3034",
@@ -674,7 +762,9 @@ const galleryData = [
     "sha256": "db32a531c2741d4c3f494bb5fbb37fb1573a2a454e181c621d44070af0c78e90",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 28.37
+    "capturedHours": 28.37,
+    "type": "Galaxy",
+    "subtype": "Starburst galaxy"
   },
   {
     "id": "ngc5194",
@@ -691,7 +781,31 @@ const galleryData = [
     "sha256": "9db95ba307898894438647e6deff54a4974dba276bdd6b723d4d7304cbe46efe",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 21.9
+    "capturedHours": 21.9,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
+  },
+  {
+    "id": "ngc6888",
+    "name": "Crescent Nebula",
+    "aliases": "NGC 6888, Caldwell 27, C27, Crescent Nebula",
+    "finished": "2026-11-17T20:30:46.2934176-07:00",
+    "width": 2300,
+    "height": 2300,
+    "images": {
+      "thumb": "images/ngc6888-b0350b7fae21bde0369f-thumb.webp",
+      "preview": "images/ngc6888-b0350b7fae21bde0369f-preview.webp",
+      "full": "images/ngc6888-b0350b7fae21bde0369f-full.webp"
+    },
+    "sha256": "b0350b7fae21bde0369f447f89c5dce9814787b8311cb1e60adb9f2f06bfd14e",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 8.08,
+    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-27/",
+    "subtype": "Emission nebula",
+    "description": "The Crescent Nebula is a shell of gas shaped by the massive star WR 136. Powerful stellar winds collide with material shed by the star during an earlier stage, forming the glowing filaments. WR 136 is a short-lived Wolf-Rayet star that is expected eventually to explode as a supernova.",
+    "type": "Nebula",
+    "constellation": "Cygnus"
   },
   {
     "id": "ngc7293",
@@ -731,7 +845,9 @@ const galleryData = [
     "sha256": "e33c62069ccfc531b4edbcb2ce0d731a264e2f8e4dc63579c964f7be15d427eb",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 5.58
+    "capturedHours": 5.58,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "ngc7380",
@@ -748,7 +864,13 @@ const galleryData = [
     "sha256": "51688e6a2633188d8eb5db2caef9b319b71c28fb65c578e550af23c4e23da2c8",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 13.1
+    "capturedHours": 13.1,
+    "type": "Nebula",
+    "subtype": "Emission nebula and open cluster",
+    "tags": [
+      "Emission nebula",
+      "Open cluster"
+    ]
   },
   {
     "id": "ngc7538",
@@ -765,7 +887,13 @@ const galleryData = [
     "sha256": "c2da1e9c82e64713abd590d101b838962c0e56dfe4c7bc4787d7d05cd89070bc",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 8.33
+    "capturedHours": 8.33,
+    "type": "Nebula",
+    "subtype": "Emission nebula and young star cluster",
+    "tags": [
+      "Emission nebula",
+      "Open cluster"
+    ]
   },
   {
     "id": "ngc7635",
@@ -788,7 +916,9 @@ const galleryData = [
         "frames": 33
       }
     ],
-    "capturedHours": 25.23
+    "capturedHours": 25.23,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ngc891",
@@ -805,7 +935,9 @@ const galleryData = [
     "sha256": "7b8a60b86c07a2976258ee1e9959e99788e90e7557d8e8eb0d01b126a6a68187",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 21.25
+    "capturedHours": 21.25,
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy"
   },
   {
     "id": "ngc896",
@@ -828,7 +960,9 @@ const galleryData = [
         "frames": 42
       }
     ],
-    "capturedHours": 3.75
+    "capturedHours": 3.75,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
   },
   {
     "id": "ngc925",
@@ -845,7 +979,9 @@ const galleryData = [
     "sha256": "3def15ce639fd37b3977f3e1d78101b90d708b7d4d4e5c84e9a4321310314e2d",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 21.92
+    "capturedHours": 21.92,
+    "type": "Galaxy",
+    "subtype": "Barred spiral galaxy"
   },
   {
     "id": "sh2136",
@@ -862,7 +998,9 @@ const galleryData = [
     "sha256": "d1fadb5b3e9b7131def09382601deb78b8b7601b024faf760de7f4db9e8f4cf3",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 2.75
+    "capturedHours": 2.75,
+    "type": "Nebula",
+    "subtype": "Reflection nebula"
   },
   {
     "id": "website-127-heart-nebula-07cb80443b32",
@@ -1274,27 +1412,5 @@ const galleryData = [
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": null
-  },
-  {
-    "id": "ngc6888",
-    "name": "Crescent Nebula",
-    "aliases": "NGC 6888, Caldwell 27, C27, Crescent Nebula",
-    "finished": "2026-11-17T20:30:46.2934176-07:00",
-    "width": 2300,
-    "height": 2300,
-    "images": {
-      "thumb": "images/ngc6888-b0350b7fae21bde0369f-thumb.webp",
-      "preview": "images/ngc6888-b0350b7fae21bde0369f-preview.webp",
-      "full": "images/ngc6888-b0350b7fae21bde0369f-full.webp"
-    },
-    "sha256": "b0350b7fae21bde0369f447f89c5dce9814787b8311cb1e60adb9f2f06bfd14e",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 8.08,
-    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-27/",
-    "subtype": "Emission nebula",
-    "description": "The Crescent Nebula is a shell of gas shaped by the massive star WR 136. Powerful stellar winds collide with material shed by the star during an earlier stage, forming the glowing filaments. WR 136 is a short-lived Wolf-Rayet star that is expected eventually to explode as a supernova.",
-    "type": "Nebula",
-    "constellation": "Cygnus"
   }
 ];
