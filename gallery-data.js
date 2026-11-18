@@ -243,29 +243,6 @@ const galleryData = [
     "subtype": "Spiral galaxy"
   },
   {
-    "id": "m104",
-    "name": "Sombrero Galaxy",
-    "aliases": "M104, NGC 4594",
-    "type": "Galaxy",
-    "subtype": "Spiral galaxy",
-    "constellation": "Virgo",
-    "distance": "28 million",
-    "description": "A dark band of dust crosses the bright central bulge of this nearly edge-on galaxy, giving it the silhouette of a wide-brimmed hat.",
-    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
-    "finished": "2026-10-31T14:47:33.7585577-07:00",
-    "width": 1400,
-    "height": 1400,
-    "images": {
-      "thumb": "images/m104-689175ce444395bf28a0-thumb.webp",
-      "preview": "images/m104-689175ce444395bf28a0-preview.webp",
-      "full": "images/m104-689175ce444395bf28a0-full.webp"
-    },
-    "sha256": "689175ce444395bf28a015f97a73fd1659c0ef1cdb97a41c39d3d4ebb2c7d90b",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 1.33
-  },
-  {
     "id": "m106",
     "name": "Messier 106",
     "aliases": "M106, NGC 4258",
@@ -342,25 +319,6 @@ const galleryData = [
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": 3.9,
-    "type": "Galaxy",
-    "subtype": "Spiral galaxy"
-  },
-  {
-    "id": "m65",
-    "name": "M 65 Spiral Galacy",
-    "aliases": "M65",
-    "finished": "2026-11-01T20:29:27.6884001-07:00",
-    "width": 2982,
-    "height": 2991,
-    "images": {
-      "thumb": "images/m65-d41de1ecfc14b534dd06-thumb.webp",
-      "preview": "images/m65-d41de1ecfc14b534dd06-preview.webp",
-      "full": "images/m65-d41de1ecfc14b534dd06-full.webp"
-    },
-    "sha256": "d41de1ecfc14b534dd06429d8c6c62748e2072523d45d012f8c644f033738504",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 3.08,
     "type": "Galaxy",
     "subtype": "Spiral galaxy"
   },
@@ -710,25 +668,6 @@ const galleryData = [
     "subtype": "Globular cluster"
   },
   {
-    "id": "ngc253",
-    "name": "NGC 253 - Sculptor Galaxy",
-    "aliases": "NGC 253, NGC253, Sculptor Galaxy",
-    "finished": "2026-11-17T19:55:48.972248-07:00",
-    "width": 3001,
-    "height": 3002,
-    "images": {
-      "thumb": "images/ngc253-6704fa74d8024388fbc4-thumb.webp",
-      "preview": "images/ngc253-6704fa74d8024388fbc4-preview.webp",
-      "full": "images/ngc253-6704fa74d8024388fbc4-full.webp"
-    },
-    "sha256": "6704fa74d8024388fbc4bb2c17cc45a59790cda25c7540661feb261dba40c4eb",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 7.83,
-    "type": "Galaxy",
-    "subtype": "Spiral galaxy"
-  },
-  {
     "id": "ngc3031",
     "name": "Bode's Galaxy",
     "aliases": "Bode's Galaxy, M81, Messier 81, NGC 3031, NGC3031",
@@ -744,44 +683,6 @@ const galleryData = [
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": 26.58,
-    "type": "Galaxy",
-    "subtype": "Spiral galaxy"
-  },
-  {
-    "id": "ngc3034",
-    "name": "M 82 Cigar Galaxy",
-    "aliases": "Cigar Galaxy, M82, Messier 82, NGC 3034, NGC3034",
-    "finished": "2026-11-01T20:21:54.9276581-07:00",
-    "width": 1300,
-    "height": 1300,
-    "images": {
-      "thumb": "images/ngc3034-db32a531c2741d4c3f49-thumb.webp",
-      "preview": "images/ngc3034-db32a531c2741d4c3f49-preview.webp",
-      "full": "images/ngc3034-db32a531c2741d4c3f49-full.webp"
-    },
-    "sha256": "db32a531c2741d4c3f494bb5fbb37fb1573a2a454e181c621d44070af0c78e90",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 28.37,
-    "type": "Galaxy",
-    "subtype": "Starburst galaxy"
-  },
-  {
-    "id": "ngc5194",
-    "name": "M 51 Whirlpool Galaxy",
-    "aliases": "M51, Messier 51, NGC 5194, NGC5194, Whirlpool Galaxy",
-    "finished": "2026-10-11T12:33:38.6801993-07:00",
-    "width": 2093,
-    "height": 2115,
-    "images": {
-      "thumb": "images/ngc5194-9db95ba3078988944386-thumb.webp",
-      "preview": "images/ngc5194-9db95ba3078988944386-preview.webp",
-      "full": "images/ngc5194-9db95ba3078988944386-full.webp"
-    },
-    "sha256": "9db95ba307898894438647e6deff54a4974dba276bdd6b723d4d7304cbe46efe",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 21.9,
     "type": "Galaxy",
     "subtype": "Spiral galaxy"
   },
@@ -1412,5 +1313,123 @@ const galleryData = [
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": null
+  },
+  {
+    "id": "ngc281",
+    "name": "NGC 281 Pacman Nebula",
+    "aliases": "NGC 281, NGC281, Pacman Nebula",
+    "finished": "2026-11-18T16:42:21.6403552+00:00",
+    "width": 2226,
+    "height": 2232,
+    "images": {
+      "thumb": "images/ngc281-97b2ef210faa4b6c0c05-thumb.webp",
+      "preview": "images/ngc281-97b2ef210faa4b6c0c05-preview.webp",
+      "full": "images/ngc281-97b2ef210faa4b6c0c05-full.webp"
+    },
+    "sha256": "97b2ef210faa4b6c0c05d74e94e0a802bee46d6583e86efd9bdc1791583b6e7b",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 18.67,
+    "type": "Nebula",
+    "subtype": "Emission nebula"
+  },
+  {
+    "id": "ngc3034",
+    "name": "M 82 Cigar Galaxy",
+    "aliases": "Cigar Galaxy, M82, Messier 82, NGC 3034, NGC3034",
+    "type": "Galaxy",
+    "subtype": "Starburst galaxy",
+    "finished": "2026-11-18T22:06:20.8864757+00:00",
+    "width": 1800,
+    "height": 1800,
+    "images": {
+      "thumb": "images/ngc3034-8bbdf1a739ed0a7c1c77-thumb.webp",
+      "preview": "images/ngc3034-8bbdf1a739ed0a7c1c77-preview.webp",
+      "full": "images/ngc3034-8bbdf1a739ed0a7c1c77-full.webp"
+    },
+    "sha256": "8bbdf1a739ed0a7c1c777360a9705072da8a629ea3e3cd22f53d853799dcbb4a",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 28.37
+  },
+  {
+    "id": "ngc253",
+    "name": "NGC 253 - Sculptor Galaxy",
+    "aliases": "NGC 253, NGC253, Sculptor Galaxy",
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy",
+    "finished": "2026-11-18T16:52:35.3964239+00:00",
+    "width": 3001,
+    "height": 3002,
+    "images": {
+      "thumb": "images/ngc253-eddf5900526eecef73ae-thumb.webp",
+      "preview": "images/ngc253-eddf5900526eecef73ae-preview.webp",
+      "full": "images/ngc253-eddf5900526eecef73ae-full.webp"
+    },
+    "sha256": "eddf5900526eecef73ae0f6b03f6e8d95862dc0a6019020cacc6ade18d56fc58",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 7.83
+  },
+  {
+    "id": "m65",
+    "name": "M 65 Spiral Galacy",
+    "aliases": "M65",
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy",
+    "finished": "2026-11-18T21:49:41.5285984+00:00",
+    "width": 2982,
+    "height": 2991,
+    "images": {
+      "thumb": "images/m65-145c446b4ede260273ca-thumb.webp",
+      "preview": "images/m65-145c446b4ede260273ca-preview.webp",
+      "full": "images/m65-145c446b4ede260273ca-full.webp"
+    },
+    "sha256": "145c446b4ede260273ca00295a419948d4e40ecb5d1a68d8232b079857e0540c",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 3.08
+  },
+  {
+    "id": "m104",
+    "name": "Sombrero Galaxy",
+    "aliases": "M104, NGC 4594",
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy",
+    "constellation": "Virgo",
+    "distance": "28 million",
+    "description": "A dark band of dust crosses the bright central bulge of this nearly edge-on galaxy, giving it the silhouette of a wide-brimmed hat.",
+    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
+    "finished": "2026-11-18T21:28:02.3071280+00:00",
+    "width": 1500,
+    "height": 1500,
+    "images": {
+      "thumb": "images/m104-d6eac0e900f6bed20823-thumb.webp",
+      "preview": "images/m104-d6eac0e900f6bed20823-preview.webp",
+      "full": "images/m104-d6eac0e900f6bed20823-full.webp"
+    },
+    "sha256": "d6eac0e900f6bed20823b8f688ceb26308ec248cacf3d3020a993965da471625",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 1.33
+  },
+  {
+    "id": "ngc5194",
+    "name": "M 51 Whirlpool Galaxy",
+    "aliases": "M51, Messier 51, NGC 5194, NGC5194, Whirlpool Galaxy",
+    "type": "Galaxy",
+    "subtype": "Spiral galaxy",
+    "finished": "2026-11-18T21:42:52.0318752+00:00",
+    "width": 2093,
+    "height": 2115,
+    "images": {
+      "thumb": "images/ngc5194-9a82d166d7abdb103a4e-thumb.webp",
+      "preview": "images/ngc5194-9a82d166d7abdb103a4e-preview.webp",
+      "full": "images/ngc5194-9a82d166d7abdb103a4e-full.webp"
+    },
+    "sha256": "9a82d166d7abdb103a4e798232a4d81a0c55a81692455d757fce01d75d172060",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 21.9
   }
 ];

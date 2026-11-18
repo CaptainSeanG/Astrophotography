@@ -46,5 +46,6 @@ const targetCatalog = {
   "ngc2174": {"type":"Nebula","subtype":"Emission nebula","name":"Monkey Head Nebula","aliases":"NGC 2174"},
   "ngc2264": {"type":"Open cluster","subtype":"Open cluster in an emission nebula","name":"Christmas Tree Cluster","aliases":"NGC 2264","tags":["Nebula","Emission nebula"]},
   "ngc7380": {"type":"Nebula","subtype":"Emission nebula and open cluster","name":"Wizard Nebula","aliases":"NGC 7380","tags":["Emission nebula","Open cluster"]},
-  "sh2136": {"type":"Nebula","subtype":"Reflection nebula","name":"Ghost Nebula","aliases":"Sh2-136, vdB 141"}
+  "sh2136": {"type":"Nebula","subtype":"Reflection nebula","name":"Ghost Nebula","aliases":"Sh2-136, vdB 141"},
+  "ngc281": {"type":"Nebula","subtype":"Emission nebula"}
 };
