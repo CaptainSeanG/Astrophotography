@@ -536,8 +536,8 @@ const galleryData = [
   },
   {
     "id": "ngc2244",
-    "name": "NGC 2244 Rosette Nebula",
-    "aliases": "NGC2244",
+    "name": "Rosette Nebula",
+    "aliases": "Rosette Nebula, NGC 2237, NGC 2244",
     "finished": "2026-11-14T19:38:15.1315496-07:00",
     "width": 2982,
     "height": 2974,
@@ -549,7 +549,13 @@ const galleryData = [
     "sha256": "eedf26e612dbd191f6f724da1370c86c431c4cfcacce706061933ca84f42e3d8",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 2.75
+    "capturedHours": 2.75,
+    "distance": "5,200",
+    "type": "Nebula",
+    "subtype": "Emission nebula",
+    "source": "https://science.nasa.gov/asset/hubble/rosette-nebula/",
+    "description": "The Rosette is a vast stellar nursery surrounding the young star cluster NGC 2244. Radiation and winds from its massive stars carve the central cavity and illuminate the surrounding gas. Dense knots and pillars within the cloud are places where new stars can form.",
+    "constellation": "Monoceros"
   },
   {
     "id": "ngc2264",
@@ -1271,9 +1277,9 @@ const galleryData = [
   },
   {
     "id": "ngc6888",
-    "name": "NGC 6888 Crescent Nebula",
-    "aliases": "C27, Caldwell 27, Crescent Nebula, NGC 6888, NGC6888",
-    "finished": "2026-11-18T03:30:46.2934176+00:00",
+    "name": "Crescent Nebula",
+    "aliases": "NGC 6888, Caldwell 27, C27, Crescent Nebula",
+    "finished": "2026-11-17T20:30:46.2934176-07:00",
     "width": 2300,
     "height": 2300,
     "images": {
@@ -1284,6 +1290,11 @@ const galleryData = [
     "sha256": "b0350b7fae21bde0369f447f89c5dce9814787b8311cb1e60adb9f2f06bfd14e",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 8.08
+    "capturedHours": 8.08,
+    "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-27/",
+    "subtype": "Emission nebula",
+    "description": "The Crescent Nebula is a shell of gas shaped by the massive star WR 136. Powerful stellar winds collide with material shed by the star during an earlier stage, forming the glowing filaments. WR 136 is a short-lived Wolf-Rayet star that is expected eventually to explode as a supernova.",
+    "type": "Nebula",
+    "constellation": "Cygnus"
   }
 ];
