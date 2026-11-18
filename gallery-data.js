@@ -623,7 +623,7 @@ const galleryData = [
     "id": "ngc253",
     "name": "NGC 253 - Sculptor Galaxy",
     "aliases": "NGC 253, NGC253, Sculptor Galaxy",
-    "finished": "2026-11-18T02:55:48.972248+00:00",
+    "finished": "2026-11-17T19:55:48.972248-07:00",
     "width": 3001,
     "height": 3002,
     "images": {
@@ -686,29 +686,6 @@ const galleryData = [
     "integrationSeconds": null,
     "filters": [],
     "capturedHours": 21.9
-  },
-  {
-    "id": "ngc6888",
-    "name": "NGC 6888 Crescent Nebula",
-    "aliases": "C27, Caldwell 27, Crescent Nebula, NGC 6888, NGC6888",
-    "finished": "2026-10-18T00:42:14.308-07:00",
-    "width": 2378,
-    "height": 2418,
-    "images": {
-      "thumb": "images/ngc6888-ec4d663add5d90fd47af-thumb.webp",
-      "preview": "images/ngc6888-ec4d663add5d90fd47af-preview.webp",
-      "full": "images/ngc6888-ec4d663add5d90fd47af-full.webp"
-    },
-    "sha256": "ec4d663add5d90fd47af0c9e03f36e3efc9930286e148e0a2ed951a82ec257e0",
-    "integrationSeconds": 17400.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 17400,
-        "frames": 58
-      }
-    ],
-    "capturedHours": 8.08
   },
   {
     "id": "ngc7293",
@@ -1078,6 +1055,33 @@ const galleryData = [
     "capturedHours": null
   },
   {
+    "id": "website-comet-2022-e3-ztf-ad9d782bdada",
+    "name": "Comet C/2022 E3 (ZTF)",
+    "aliases": "C/2022 E3, ZTF, Green comet",
+    "type": "Comet",
+    "subtype": "Long-period comet",
+    "distanceText": "Varies with date; capture date unverified",
+    "magnitude": "Varies with date",
+    "description": "C/2022 E3 (ZTF) is a visitor from the distant Oort Cloud. It rounded the Sun on January 12, 2023 and swept past Earth in early February. Telescopic photographs reveal its green coma, a cloud of gas around the nucleus, together with dust and ion tails shaped by sunlight and the solar wind.",
+    "source": "https://science.nasa.gov/image-article/apod-2023-january-21-naked-eye-comet-ztf/",
+    "imageNote": "Identification confirmed by the photographer. Capture date, exposure and equipment are unverified; brightness and distance depend on the observing date.",
+    "collection": "archive",
+    "sourceFilename": "Comet 2022 E3 ZTF.jpg",
+    "metadataSha256": "28013e50876a4004a18460bc4f6b0bd78521a249fec0e1aed9cc3446f8edc311",
+    "finished": "2023-01-26T19:56:04-07:00",
+    "width": 3008,
+    "height": 3008,
+    "images": {
+      "thumb": "images/website-comet-2022-e3-ztf-ad9d782bdada-4d74cba6f01c1995c837-thumb.webp",
+      "preview": "images/website-comet-2022-e3-ztf-ad9d782bdada-4d74cba6f01c1995c837-preview.webp",
+      "full": "images/website-comet-2022-e3-ztf-ad9d782bdada-4d74cba6f01c1995c837-full.webp"
+    },
+    "sha256": "4d74cba6f01c1995c837078aaff27850a6fa9fc3d5fc6239580007cbc789306f",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": null
+  },
+  {
     "id": "website-eastern-veil-nebula-2-e9aee36eabe9",
     "name": "Eastern Veil Nebula",
     "aliases": "NGC 6992, NGC 6995, Caldwell 33",
@@ -1266,30 +1270,20 @@ const galleryData = [
     "capturedHours": null
   },
   {
-    "id": "website-comet-2022-e3-ztf-ad9d782bdada",
-    "name": "Comet C/2022 E3 (ZTF)",
-    "aliases": "C/2022 E3, ZTF, Green comet",
-    "type": "Comet",
-    "subtype": "Long-period comet",
-    "distanceText": "Varies with date; capture date unverified",
-    "magnitude": "Varies with date",
-    "description": "C/2022 E3 (ZTF) is a visitor from the distant Oort Cloud. It rounded the Sun on January 12, 2023 and swept past Earth in early February. Telescopic photographs reveal its green coma, a cloud of gas around the nucleus, together with dust and ion tails shaped by sunlight and the solar wind.",
-    "source": "https://science.nasa.gov/image-article/apod-2023-january-21-naked-eye-comet-ztf/",
-    "imageNote": "Identification confirmed by the photographer. Capture date, exposure and equipment are unverified; brightness and distance depend on the observing date.",
-    "collection": "archive",
-    "sourceFilename": "Comet 2022 E3 ZTF.jpg",
-    "metadataSha256": "28013e50876a4004a18460bc4f6b0bd78521a249fec0e1aed9cc3446f8edc311",
-    "finished": "2023-01-27T02:56:04.0000000+00:00",
-    "width": 3008,
-    "height": 3008,
+    "id": "ngc6888",
+    "name": "NGC 6888 Crescent Nebula",
+    "aliases": "C27, Caldwell 27, Crescent Nebula, NGC 6888, NGC6888",
+    "finished": "2026-11-18T03:30:46.2934176+00:00",
+    "width": 2300,
+    "height": 2300,
     "images": {
-      "thumb": "images/website-comet-2022-e3-ztf-ad9d782bdada-4d74cba6f01c1995c837-thumb.webp",
-      "preview": "images/website-comet-2022-e3-ztf-ad9d782bdada-4d74cba6f01c1995c837-preview.webp",
-      "full": "images/website-comet-2022-e3-ztf-ad9d782bdada-4d74cba6f01c1995c837-full.webp"
+      "thumb": "images/ngc6888-b0350b7fae21bde0369f-thumb.webp",
+      "preview": "images/ngc6888-b0350b7fae21bde0369f-preview.webp",
+      "full": "images/ngc6888-b0350b7fae21bde0369f-full.webp"
     },
-    "sha256": "4d74cba6f01c1995c837078aaff27850a6fa9fc3d5fc6239580007cbc789306f",
+    "sha256": "b0350b7fae21bde0369f447f89c5dce9814787b8311cb1e60adb9f2f06bfd14e",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": null
+    "capturedHours": 8.08
   }
 ];
