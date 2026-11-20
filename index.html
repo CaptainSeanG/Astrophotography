@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Explore Sean Gallagher’s photographs of galaxies, nebulae, and the night sky.">
   <title>Sean Gallagher Astrophotography</title>
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="style.css?v=7">
   <script defer src="gallery-data.js"></script>
   <script defer src="target-catalog.js?v=2"></script>
   <script defer src="target-details.js"></script>
   <script defer src="gallery.js?v=4"></script>
+  <script defer src="moon-assets/suncalc.js"></script>
+  <script defer src="moon-phase.js"></script>
 </head>
 <body>
   <header class="top"><div class="wrap nav">
@@ -46,6 +48,12 @@
       <h2>About the gallery</h2>
       <div><p>Sean Gallagher Astrophotography brings together finished photographs from my deep-sky imaging library. The collection includes nearby stellar remnants and galaxies millions of light-years away.</p>
       <h3>Acquisition and processing</h3><p>I use N.I.N.A. for acquisition and PixInsight and Astro Automation for processing. Integration times come from the processing records for the displayed photograph.</p><p><a href="equipment.html" class="text-link">Explore the equipment and image-making process ↗</a></p></div>
+    </div>
+    <div class="wrap moon-wrap">
+      <a class="moon-card" id="moon-link" href="https://theskylive.com/moon-info" target="_blank" rel="noopener noreferrer">
+        <canvas id="moon-phase" width="256" height="256" role="img" aria-label="Current Moon phase illustration"></canvas>
+        <span class="moon-copy"><span class="eyebrow">The Moon right now</span><strong id="moon-name">Current Moon phase</strong><span id="moon-illumination">See today’s Moon on TheSkyLive</span><span class="moon-cta">Explore the Moon on TheSkyLive ↗</span><small>Phase illustration · lunar surface image: NASA</small></span>
+      </a>
     </div></section>
   </main>
   <footer class="wrap"><span>© Sean Gallagher — All Rights Reserved.</span>

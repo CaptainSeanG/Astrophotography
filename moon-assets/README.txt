@@ -1,0 +1,1 @@
+Lunar surface image: NASA Moon Phases, https://science.nasa.gov/moon/moon-phases/ ; original https://science.nasa.gov/wp-content/uploads/2023/08/full.jpg . Cropped and resized for the phase illustration. The illumination mask is calculated locally using SunCalc 1.9.0 (BSD-2-Clause; included license). This illustration does not model libration or local horizon rotation.

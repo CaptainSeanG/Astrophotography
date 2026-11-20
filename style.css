@@ -85,6 +85,8 @@ dt{color:var(--muted)} dd{margin:0}
 #stage:active{cursor:grabbing}
 #full{position:absolute;left:50%;top:50%;max-width:none;transform-origin:center;user-select:none;pointer-events:none}
 #zoom-status{font-size:.83rem;color:var(--muted);margin:0;padding:8px 14px}
+.moon-wrap{padding-bottom:48px}.moon-card{display:flex;align-items:center;gap:28px;max-width:620px;padding:24px 30px;background:#111c29;border:1px solid #32475f;border-radius:12px;text-decoration:none;color:var(--text);transition:border-color .2s,background .2s}.moon-card:hover,.moon-card:focus-visible{border-color:#b9d9ff;background:#172436}.moon-card canvas{width:128px;height:128px;flex:none;filter:drop-shadow(0 0 18px #adc8ef16)}.moon-copy{display:flex;flex-direction:column;gap:7px}.moon-copy .eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:.7rem;color:var(--muted)}.moon-copy strong{font:1.65rem Georgia,serif}.moon-copy>span:not(.eyebrow){color:var(--muted)}.moon-copy .moon-cta{font-size:.85rem;color:#b9d9ff!important;margin-top:7px}.moon-copy small{font-size:.65rem;color:var(--muted);line-height:1.4}
+@media(max-width:450px){.moon-card{padding:20px 16px;gap:16px}.moon-card canvas{width:86px;height:86px}.moon-copy strong{font-size:1.3rem}}
 @media(max-width:1100px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){
