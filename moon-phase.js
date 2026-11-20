@@ -13,6 +13,18 @@
   }
   function update() {
     const now = new Date();
+    // Anchor solar calculations to noon on the current Phoenix calendar date,
+    // independent of the visitor's timezone and UTC midnight.
+    const azDate = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Phoenix', year: 'numeric', month: 'numeric', day: 'numeric' });
+    const parts = Object.fromEntries(azDate.formatToParts(now).map(part => [part.type, part.value]));
+    const noon = new Date(Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day), 19));
+    const dusk = SunCalc.getTimes(noon, 33.4484, -112.0740).nauticalDusk;
+    const time = document.getElementById('nautical-dusk');
+    if (time && Number.isFinite(dusk.getTime())) {
+      time.textContent = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Phoenix', hour: 'numeric', minute: '2-digit', hour12: true }).format(dusk) + ' MST';
+      time.dateTime = dusk.toISOString();
+      document.getElementById('dusk-date').textContent = 'Phoenix, AZ · ' + new Intl.DateTimeFormat('en-US', { timeZone: 'America/Phoenix', month: 'short', day: 'numeric' }).format(noon);
+    }
     const illumination = SunCalc.getMoonIllumination(now);
     const name = phaseName(illumination);
     const percent = Math.round(illumination.fraction * 100);

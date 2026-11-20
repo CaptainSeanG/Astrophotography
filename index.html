@@ -5,18 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Explore Sean Gallagher’s photographs of galaxies, nebulae, and the night sky.">
   <title>Sean Gallagher Astrophotography</title>
-  <link rel="stylesheet" href="style.css?v=7">
+  <link rel="stylesheet" href="style.css?v=8">
   <script defer src="gallery-data.js"></script>
   <script defer src="target-catalog.js?v=2"></script>
   <script defer src="target-details.js"></script>
   <script defer src="gallery.js?v=4"></script>
   <script defer src="moon-assets/suncalc.js"></script>
-  <script defer src="moon-phase.js"></script>
+  <script defer src="moon-phase.js?v=2"></script>
 </head>
 <body>
-  <header class="top"><div class="wrap nav">
+  <header class="top observing-header"><div class="wrap nav">
     <a class="brand" href="#home"><span aria-hidden="true">✦</span> Sean Gallagher <small>Astrophotography</small></a>
-    <nav aria-label="Main navigation"><a href="#home">Home</a><a href="#gallery">Gallery</a><a href="equipment.html">Equipment</a><a href="#about">About</a></nav>
+    <div class="header-right"><nav aria-label="Main navigation"><a href="#home">Home</a><a href="#gallery">Gallery</a><a href="equipment.html">Equipment</a><a href="#about">About</a></nav>
+    <div class="header-sky">
+      <div class="dusk-card" title="Evening nautical twilight ends when the Sun is 12 degrees below the horizon. Calculated for Phoenix city center."><span>Nautical dusk</span><time id="nautical-dusk">—</time><small id="dusk-date">Phoenix, AZ · MST</small></div>
+      <a class="moon-card" id="moon-link" href="https://theskylive.com/moon-info" target="_blank" rel="noopener noreferrer">
+        <canvas id="moon-phase" width="256" height="256" role="img" aria-label="Current Moon phase illustration"></canvas>
+        <span class="moon-copy"><span class="eyebrow">Current Moon</span><strong id="moon-name">Current Moon phase</strong><span id="moon-illumination">See today’s Moon on TheSkyLive</span><span class="moon-cta">TheSkyLive ↗</span></span>
+      </a>
+    </div></div>
   </div></header>
   <main id="home">
     <section class="hero" aria-labelledby="hero-title">
@@ -49,12 +56,7 @@
       <div><p>Sean Gallagher Astrophotography brings together finished photographs from my deep-sky imaging library. The collection includes nearby stellar remnants and galaxies millions of light-years away.</p>
       <h3>Acquisition and processing</h3><p>I use N.I.N.A. for acquisition and PixInsight and Astro Automation for processing. Integration times come from the processing records for the displayed photograph.</p><p><a href="equipment.html" class="text-link">Explore the equipment and image-making process ↗</a></p></div>
     </div>
-    <div class="wrap moon-wrap">
-      <a class="moon-card" id="moon-link" href="https://theskylive.com/moon-info" target="_blank" rel="noopener noreferrer">
-        <canvas id="moon-phase" width="256" height="256" role="img" aria-label="Current Moon phase illustration"></canvas>
-        <span class="moon-copy"><span class="eyebrow">The Moon right now</span><strong id="moon-name">Current Moon phase</strong><span id="moon-illumination">See today’s Moon on TheSkyLive</span><span class="moon-cta">Explore the Moon on TheSkyLive ↗</span><small>Phase illustration · lunar surface image: NASA</small></span>
-      </a>
-    </div></section>
+</section>
   </main>
   <footer class="wrap"><span>© Sean Gallagher — All Rights Reserved.</span>
     <a class="visit-counter" href="https://hitscounter.dev/history?url=https%3A%2F%2Fcaptainseang.github.io%2FAstrophotography%2F" target="_blank" rel="noopener noreferrer" title="Page visits today / total, counting since November 17, 2026. Open visit statistics.">
