@@ -1,5 +1,24 @@
 const galleryData = [
   {
+    "id": "ic1396a",
+    "name": "IC 1396 Elephant Trunk Nebula",
+    "aliases": "Elephant Trunk, Elephant Trunk Nebula, IC 1396A, IC1396A",
+    "type": "Nebula",
+    "subtype": "Dark nebula",
+    "finished": "2026-11-20T19:44:45.9939283-07:00",
+    "width": 2993,
+    "height": 2988,
+    "images": {
+      "thumb": "images/ic1396a-e93738f3b668794b8f59-thumb.webp",
+      "preview": "images/ic1396a-e93738f3b668794b8f59-preview.webp",
+      "full": "images/ic1396a-e93738f3b668794b8f59-full.webp"
+    },
+    "sha256": "e93738f3b668794b8f5918102308cc2b8249ef4496a1b21e45c58802a314cd1a",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 8.25
+  },
+  {
     "id": "ic1805",
     "name": "IC 1805 Heart Nebula",
     "aliases": "Heart Nebula, IC 1805, IC1805",
@@ -174,6 +193,35 @@ const galleryData = [
     "capturedHours": 2.49,
     "type": "Nebula",
     "subtype": "Emission nebula"
+  },
+  {
+    "id": "ic5146",
+    "name": "Caldwell 19",
+    "aliases": "C19, Caldwell 19, Cocoon Nebula, IC 5146, IC5146",
+    "type": "Nebula",
+    "subtype": "Emission and reflection nebula",
+    "finished": "2026-11-20T18:59:46.785-07:00",
+    "width": 2999,
+    "height": 2996,
+    "images": {
+      "thumb": "images/ic5146-ca27ae44a1696b73fe28-thumb.webp",
+      "preview": "images/ic5146-ca27ae44a1696b73fe28-preview.webp",
+      "full": "images/ic5146-ca27ae44a1696b73fe28-full.webp"
+    },
+    "sha256": "ca27ae44a1696b73fe2873d557be8efe55f3c687a8371e2f98fe342e38e7c101",
+    "integrationSeconds": 2100.0,
+    "filters": [
+      {
+        "filter": "L-eXtreme",
+        "seconds": 2100,
+        "frames": 7
+      }
+    ],
+    "capturedHours": 1.83,
+    "tags": [
+      "Emission nebula",
+      "Reflection nebula"
+    ]
   },
   {
     "id": "m101",
@@ -643,25 +691,6 @@ const galleryData = [
     "subtype": "Spiral galaxy"
   },
   {
-    "id": "ngc2419",
-    "name": "Caldwell 25",
-    "aliases": "C25, Caldwell 25, NGC 2419, NGC2419",
-    "finished": "2026-11-16T20:24:02.8823109-07:00",
-    "width": 1000,
-    "height": 1000,
-    "images": {
-      "thumb": "images/ngc2419-05826cf5ce32f9844f17-thumb.webp",
-      "preview": "images/ngc2419-05826cf5ce32f9844f17-preview.webp",
-      "full": "images/ngc2419-05826cf5ce32f9844f17-full.webp"
-    },
-    "sha256": "05826cf5ce32f9844f17f23ff4cf91acb664a37329675b8fea2f87386ab25521",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 1.83,
-    "type": "Globular cluster",
-    "subtype": "Globular cluster"
-  },
-  {
     "id": "ngc253",
     "name": "NGC 253 - Sculptor Galaxy",
     "aliases": "NGC 253, NGC253, Sculptor Galaxy",
@@ -819,29 +848,6 @@ const galleryData = [
     "capturedHours": 5.58,
     "type": "Galaxy",
     "subtype": "Spiral galaxy"
-  },
-  {
-    "id": "ngc7380",
-    "name": "NGC 7380 Wizard Nebula",
-    "aliases": "NGC 7380, NGC 7380 Wizard Nebula, NGC7380",
-    "finished": "2026-10-08T17:01:07.3815215-07:00",
-    "width": 2998,
-    "height": 3004,
-    "images": {
-      "thumb": "images/ngc7380-51688e6a2633188d8eb5-thumb.webp",
-      "preview": "images/ngc7380-51688e6a2633188d8eb5-preview.webp",
-      "full": "images/ngc7380-51688e6a2633188d8eb5-full.webp"
-    },
-    "sha256": "51688e6a2633188d8eb5db2caef9b319b71c28fb65c578e550af23c4e23da2c8",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 13.1,
-    "type": "Nebula",
-    "subtype": "Emission nebula and open cluster",
-    "tags": [
-      "Emission nebula",
-      "Open cluster"
-    ]
   },
   {
     "id": "ngc7538",
@@ -1385,51 +1391,45 @@ const galleryData = [
     "capturedHours": null
   },
   {
-    "id": "ic5146",
-    "name": "Caldwell 19",
-    "aliases": "C19, Caldwell 19, Cocoon Nebula, IC 5146, IC5146",
+    "id": "ngc7380",
+    "name": "NGC 7380 Wizard Nebula",
+    "aliases": "NGC 7380, NGC 7380 Wizard Nebula, NGC7380",
     "type": "Nebula",
-    "subtype": "Emission and reflection nebula",
-    "finished": "2026-11-21T01:59:46.7850000+00:00",
-    "width": 2999,
-    "height": 2996,
+    "subtype": "Emission nebula and open cluster",
+    "finished": "2026-11-21T02:51:05.2262267+00:00",
+    "width": 3008,
+    "height": 3008,
     "images": {
-      "thumb": "images/ic5146-ca27ae44a1696b73fe28-thumb.webp",
-      "preview": "images/ic5146-ca27ae44a1696b73fe28-preview.webp",
-      "full": "images/ic5146-ca27ae44a1696b73fe28-full.webp"
+      "thumb": "images/ngc7380-e464f1555fc0dfe42b33-thumb.webp",
+      "preview": "images/ngc7380-e464f1555fc0dfe42b33-preview.webp",
+      "full": "images/ngc7380-e464f1555fc0dfe42b33-full.webp"
     },
-    "sha256": "ca27ae44a1696b73fe2873d557be8efe55f3c687a8371e2f98fe342e38e7c101",
-    "integrationSeconds": 2100.0,
-    "filters": [
-      {
-        "filter": "L-eXtreme",
-        "seconds": 2100,
-        "frames": 7
-      }
-    ],
-    "capturedHours": 1.83,
+    "sha256": "e464f1555fc0dfe42b333e10ae67d7505cb456d154dc1961dcce8fef00271d47",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 13.1,
     "tags": [
       "Emission nebula",
-      "Reflection nebula"
+      "Open cluster"
     ]
   },
   {
-    "id": "ic1396a",
-    "name": "IC 1396 Elephant Trunk Nebula",
-    "aliases": "Elephant Trunk, Elephant Trunk Nebula, IC 1396A, IC1396A",
-    "type": "Nebula",
-    "subtype": "Dark nebula",
-    "finished": "2026-11-21T02:44:45.9939283+00:00",
-    "width": 2993,
-    "height": 2988,
+    "id": "ngc2419",
+    "name": "Caldwell 25",
+    "aliases": "C25, Caldwell 25, NGC 2419, NGC2419",
+    "type": "Globular cluster",
+    "subtype": "Globular cluster",
+    "finished": "2026-11-21T01:39:32.5297870+00:00",
+    "width": 2000,
+    "height": 2000,
     "images": {
-      "thumb": "images/ic1396a-e93738f3b668794b8f59-thumb.webp",
-      "preview": "images/ic1396a-e93738f3b668794b8f59-preview.webp",
-      "full": "images/ic1396a-e93738f3b668794b8f59-full.webp"
+      "thumb": "images/ngc2419-05a62393f5e2f7e23962-thumb.webp",
+      "preview": "images/ngc2419-05a62393f5e2f7e23962-preview.webp",
+      "full": "images/ngc2419-05a62393f5e2f7e23962-full.webp"
     },
-    "sha256": "e93738f3b668794b8f5918102308cc2b8249ef4496a1b21e45c58802a314cd1a",
+    "sha256": "05a62393f5e2f7e2396286d01aebcc0598409404cc7076ddb14edb4a0e784806",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 8.25
+    "capturedHours": 5.33
   }
 ];
