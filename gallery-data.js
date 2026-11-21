@@ -470,25 +470,6 @@ const galleryData = [
     ]
   },
   {
-    "id": "ngc1491",
-    "name": "NGC 1491 Fossil Footprint",
-    "aliases": "NGC1491",
-    "finished": "2026-10-14T10:24:52.8251784-07:00",
-    "width": 2124,
-    "height": 2125,
-    "images": {
-      "thumb": "images/ngc1491-7a990ec2d9be6475c3ae-thumb.webp",
-      "preview": "images/ngc1491-7a990ec2d9be6475c3ae-preview.webp",
-      "full": "images/ngc1491-7a990ec2d9be6475c3ae-full.webp"
-    },
-    "sha256": "7a990ec2d9be6475c3ae7654d65ebdcb284f01f4c925dc230b96efa64e80f9fc",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 16.38,
-    "type": "Nebula",
-    "subtype": "Emission nebula"
-  },
-  {
     "id": "ngc1624",
     "name": "NGC 1624",
     "aliases": "NGC1624",
@@ -691,6 +672,25 @@ const galleryData = [
     "subtype": "Spiral galaxy"
   },
   {
+    "id": "ngc2419",
+    "name": "Caldwell 25",
+    "aliases": "C25, Caldwell 25, NGC 2419, NGC2419",
+    "type": "Globular cluster",
+    "subtype": "Globular cluster",
+    "finished": "2026-11-20T18:39:32.529787-07:00",
+    "width": 2000,
+    "height": 2000,
+    "images": {
+      "thumb": "images/ngc2419-05a62393f5e2f7e23962-thumb.webp",
+      "preview": "images/ngc2419-05a62393f5e2f7e23962-preview.webp",
+      "full": "images/ngc2419-05a62393f5e2f7e23962-full.webp"
+    },
+    "sha256": "05a62393f5e2f7e2396286d01aebcc0598409404cc7076ddb14edb4a0e784806",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 5.33
+  },
+  {
     "id": "ngc253",
     "name": "NGC 253 - Sculptor Galaxy",
     "aliases": "NGC 253, NGC253, Sculptor Galaxy",
@@ -848,6 +848,29 @@ const galleryData = [
     "capturedHours": 5.58,
     "type": "Galaxy",
     "subtype": "Spiral galaxy"
+  },
+  {
+    "id": "ngc7380",
+    "name": "NGC 7380 Wizard Nebula",
+    "aliases": "NGC 7380, NGC 7380 Wizard Nebula, NGC7380",
+    "type": "Nebula",
+    "subtype": "Emission nebula and open cluster",
+    "finished": "2026-11-20T19:51:05.2262267-07:00",
+    "width": 3008,
+    "height": 3008,
+    "images": {
+      "thumb": "images/ngc7380-e464f1555fc0dfe42b33-thumb.webp",
+      "preview": "images/ngc7380-e464f1555fc0dfe42b33-preview.webp",
+      "full": "images/ngc7380-e464f1555fc0dfe42b33-full.webp"
+    },
+    "sha256": "e464f1555fc0dfe42b333e10ae67d7505cb456d154dc1961dcce8fef00271d47",
+    "integrationSeconds": null,
+    "filters": [],
+    "capturedHours": 13.1,
+    "tags": [
+      "Emission nebula",
+      "Open cluster"
+    ]
   },
   {
     "id": "ngc7538",
@@ -1391,45 +1414,22 @@ const galleryData = [
     "capturedHours": null
   },
   {
-    "id": "ngc7380",
-    "name": "NGC 7380 Wizard Nebula",
-    "aliases": "NGC 7380, NGC 7380 Wizard Nebula, NGC7380",
+    "id": "ngc1491",
+    "name": "NGC 1491 Fossil Footprint",
+    "aliases": "NGC1491",
     "type": "Nebula",
-    "subtype": "Emission nebula and open cluster",
-    "finished": "2026-11-21T02:51:05.2262267+00:00",
-    "width": 3008,
-    "height": 3008,
-    "images": {
-      "thumb": "images/ngc7380-e464f1555fc0dfe42b33-thumb.webp",
-      "preview": "images/ngc7380-e464f1555fc0dfe42b33-preview.webp",
-      "full": "images/ngc7380-e464f1555fc0dfe42b33-full.webp"
-    },
-    "sha256": "e464f1555fc0dfe42b333e10ae67d7505cb456d154dc1961dcce8fef00271d47",
-    "integrationSeconds": null,
-    "filters": [],
-    "capturedHours": 13.1,
-    "tags": [
-      "Emission nebula",
-      "Open cluster"
-    ]
-  },
-  {
-    "id": "ngc2419",
-    "name": "Caldwell 25",
-    "aliases": "C25, Caldwell 25, NGC 2419, NGC2419",
-    "type": "Globular cluster",
-    "subtype": "Globular cluster",
-    "finished": "2026-11-21T01:39:32.5297870+00:00",
+    "subtype": "Emission nebula",
+    "finished": "2026-11-21T03:26:18.8957656+00:00",
     "width": 2000,
     "height": 2000,
     "images": {
-      "thumb": "images/ngc2419-05a62393f5e2f7e23962-thumb.webp",
-      "preview": "images/ngc2419-05a62393f5e2f7e23962-preview.webp",
-      "full": "images/ngc2419-05a62393f5e2f7e23962-full.webp"
+      "thumb": "images/ngc1491-b6f9f9258750617118d4-thumb.webp",
+      "preview": "images/ngc1491-b6f9f9258750617118d4-preview.webp",
+      "full": "images/ngc1491-b6f9f9258750617118d4-full.webp"
     },
-    "sha256": "05a62393f5e2f7e2396286d01aebcc0598409404cc7076ddb14edb4a0e784806",
+    "sha256": "b6f9f9258750617118d42af18b076ecde20e62c5579ca4f2a61a157cce0c7d2a",
     "integrationSeconds": null,
     "filters": [],
-    "capturedHours": 5.33
+    "capturedHours": 16.38
   }
 ];
